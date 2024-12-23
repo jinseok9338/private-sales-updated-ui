@@ -24,6 +24,11 @@ export const links: Route.LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 ];
 
+// this is app Skeleton
+export function HydrateFallback() {
+  return <p>Loading Game...</p>;
+}
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">

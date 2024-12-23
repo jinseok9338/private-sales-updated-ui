@@ -1,0 +1,2498 @@
+{
+  "item_list": [
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36656891,
+          "name": "24FW 남성 마가렛호웰 스트레이트 팬츠 MHTR0515A24KWPMOS Free MOSS",
+          "market_sno": 44097,
+          "market_name": "주식회사구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/FjfDve3nKZs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2U2MTliMjM5ZjZiMDQ0MTgyNzM1YTlkMDU3ZmZiNGEyLmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "24FW 남성 마가렛호웰 스트레이트 팬츠 MHTR0515A24KWPMOS Free MOSS",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/2lmnacBawik/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2U2MTliMjM5ZjZiMDQ0MTgyNzM1YTlkMDU3ZmZiNGEyLmpwZw",
+            "market_image": null,
+            "discount_rate": 0,
+            "original_price": 427000,
+            "price": 427000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 427000,
+          "discount_rate": 0,
+          "like": {
+            "goods_sno": 36656891,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 0
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36656891/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2224FW%20%5Cub0a8%5Cuc131%20%5Cub9c8%5Cuac00%5Cub81b%5Cud638%5Cuc6f0%20%5Cuc2a4%5Cud2b8%5Cub808%5Cuc774%5Cud2b8%20%5Cud32c%5Cuce20%20MHTR0515A24KWPMOS%20Free%20MOSS%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F2lmnacBawik%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2U2MTliMjM5ZjZiMDQ0MTgyNzM1YTlkMDU3ZmZiNGEyLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%20427000%2C%20%22price%22%3A%20427000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36656891",
+            "GOODS_NAME": "24FW 남성 마가렛호웰 스트레이트 팬츠 MHTR0515A24KWPMOS Free MOSS",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44097",
+            "MARKET_NAME": "주식회사구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 0,
+            "SALES_PRICE": 427000,
+            "SALES_PRICE_RANGE": "425,001~430,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 0,
+            "BRAND_SNO": 2396,
+            "BRAND_NAME": "마가렛호웰",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36656891,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 0,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/FjfDve3nKZs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2U2MTliMjM5ZjZiMDQ0MTgyNzM1YTlkMDU3ZmZiNGEyLmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "24FW 남성 마가렛호웰 스트레이트 팬츠 MHTR0515A24KWPMOS Free MOSS",
+            "price": "427,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": null,
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "마가렛호웰",
+            "store_text": "<font color='#6093FC'>브랜드</font> 마가렛호웰",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36758135,
+          "name": "24FW 남성 니들스 스트레이트 팬츠 PU194 Black",
+          "market_sno": 44097,
+          "market_name": "주식회사구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/qie0bqD-Ix0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VkZmUyOWFkYmE1YjhhMjE5ZGJhODY3NjA4NjQ1ZWQ3LmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "24FW 남성 니들스 스트레이트 팬츠 PU194 Black",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/IQ74f0R1lxo/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VkZmUyOWFkYmE1YjhhMjE5ZGJhODY3NjA4NjQ1ZWQ3LmpwZw",
+            "market_image": null,
+            "discount_rate": 0,
+            "original_price": 451000,
+            "price": 451000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 451000,
+          "discount_rate": 0,
+          "like": {
+            "goods_sno": 36758135,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 1
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36758135/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2224FW%20%5Cub0a8%5Cuc131%20%5Cub2c8%5Cub4e4%5Cuc2a4%20%5Cuc2a4%5Cud2b8%5Cub808%5Cuc774%5Cud2b8%20%5Cud32c%5Cuce20%20PU194%20Black%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FIQ74f0R1lxo%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VkZmUyOWFkYmE1YjhhMjE5ZGJhODY3NjA4NjQ1ZWQ3LmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%20451000%2C%20%22price%22%3A%20451000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36758135",
+            "GOODS_NAME": "24FW 남성 니들스 스트레이트 팬츠 PU194 Black",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44097",
+            "MARKET_NAME": "주식회사구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 0,
+            "SALES_PRICE": 451000,
+            "SALES_PRICE_RANGE": "450,001~455,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 1,
+            "BRAND_SNO": 2284,
+            "BRAND_NAME": "니들스",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36758135,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 1,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/qie0bqD-Ix0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VkZmUyOWFkYmE1YjhhMjE5ZGJhODY3NjA4NjQ1ZWQ3LmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "24FW 남성 니들스 스트레이트 팬츠 PU194 Black",
+            "price": "451,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": null,
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "니들스",
+            "store_text": "<font color='#6093FC'>브랜드</font> 니들스",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 33005052,
+          "name": "1+1할인[포근기모/겨울신상] 스웨이드 사이드핀턱 트레이닝팬츠",
+          "market_sno": 4036,
+          "market_name": "루너프",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/VHeAWXVoVnM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UxNGJmOTY3NmEwOWY0ZjhjYmM0NmM1Yzk5ZjkwN2MwLmdpZg",
+          "closed_reason": null,
+          "sell_count": 8013,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "1+1할인[포근기모/겨울신상] 스웨이드 사이드핀턱 트레이닝팬츠",
+            "market_name": "루너프",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/vTrLBUvSKGw/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTA1XzE3MzA3ODQ0MDMyODE1MzRtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/dtz8w0UbfGs/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MTUxMjgyMjAwNjQ1NzMuanBn",
+            "discount_rate": 31,
+            "original_price": 20000,
+            "price": 13760
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 13760,
+          "discount_rate": 31,
+          "like": {
+            "goods_sno": 33005052,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 2
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/33005052/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%221%2B1%5Cud560%5Cuc778%5B%5Cud3ec%5Cuadfc%5Cuae30%5Cubaa8%2F%5Cuaca8%5Cuc6b8%5Cuc2e0%5Cuc0c1%5D%20%5Cuc2a4%5Cuc6e8%5Cuc774%5Cub4dc%20%5Cuc0ac%5Cuc774%5Cub4dc%5Cud540%5Cud131%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%5Cud32c%5Cuce20%22%2C%20%22market_name%22%3A%20%22%5Cub8e8%5Cub108%5Cud504%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FvTrLBUvSKGw%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTA1XzE3MzA3ODQ0MDMyODE1MzRtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fdtz8w0UbfGs%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MTUxMjgyMjAwNjQ1NzMuanBn%22%2C%20%22discount_rate%22%3A%2031%2C%20%22original_price%22%3A%2020000%2C%20%22price%22%3A%2013760%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "33005052",
+            "GOODS_NAME": "1+1할인[포근기모/겨울신상] 스웨이드 사이드핀턱 트레이닝팬츠",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "4036",
+            "MARKET_NAME": "루너프",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 31,
+            "SALES_PRICE": 13760,
+            "SALES_PRICE_RANGE": "10,001~15,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 787,
+            "REVIEW_COUNT_RANGE": "751~800",
+            "REVIEW_RATING": 94,
+            "LIKES_COUNT": 20278,
+            "LIKES_COUNT_RANGE": "20,251~20,300",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 2,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 33005052,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 2,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/VHeAWXVoVnM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UxNGJmOTY3NmEwOWY0ZjhjYmM0NmM1Yzk5ZjkwN2MwLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "1+1할인[포근기모/겨울신상] 스웨이드 사이드핀턱 트레이닝팬츠",
+            "price": "13,760",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "31%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "루너프",
+            "store_text": "루너프",
+            "nudging_text": "8,013개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36751063,
+          "name": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11115 Black",
+          "market_sno": 44097,
+          "market_name": "주식회사구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/fs8-_rZSzFM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzE1MWRlYmJhZTk5YmY0ZjJjMWE3OTc4NDM0NjAwMDU0LmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11115 Black",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Ga6YymX3tUg/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzE1MWRlYmJhZTk5YmY0ZjJjMWE3OTc4NDM0NjAwMDU0LmpwZw",
+            "market_image": null,
+            "discount_rate": 0,
+            "original_price": 519000,
+            "price": 519000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 519000,
+          "discount_rate": 0,
+          "like": {
+            "goods_sno": 36751063,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 3
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36751063/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2224FW%20%5Cuc5ec%5Cuc131%20%5Cud50c%5Cub9ac%5Cuce20%5Cud50c%5Cub9ac%5Cuc988%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cuc870%5Cuac70%20%5Cud32c%5Cuce20%20PP49JF11115%20Black%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FGa6YymX3tUg%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzE1MWRlYmJhZTk5YmY0ZjJjMWE3OTc4NDM0NjAwMDU0LmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%20519000%2C%20%22price%22%3A%20519000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36751063",
+            "GOODS_NAME": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11115 Black",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44097",
+            "MARKET_NAME": "주식회사구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 0,
+            "SALES_PRICE": 519000,
+            "SALES_PRICE_RANGE": "515,001~520,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 3,
+            "BRAND_SNO": 2641,
+            "BRAND_NAME": "플리츠플리즈",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36751063,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 3,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/fs8-_rZSzFM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzE1MWRlYmJhZTk5YmY0ZjJjMWE3OTc4NDM0NjAwMDU0LmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11115 Black",
+            "price": "519,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": null,
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "플리츠플리즈",
+            "store_text": "<font color='#6093FC'>브랜드</font> 플리츠플리즈",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36652211,
+          "name": "*기모바지 [문의폭주🐻/단독진행] 베어 기모 힙 투웨이 사이드 핀턱 밴딩 와이드 팬츠 pt - 7color (허얇골넓,와이드팬츠,조거팬츠,투웨이바지,트레이닝바지,무릎늘어남X)",
+          "market_sno": 60656,
+          "market_name": "데이원트",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/MJAU1vuc_w8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzcwYTM4N2NjZTA2MDEyYTljYzZjOWVlZjM2YzBkNGJkLmdpZg",
+          "closed_reason": null,
+          "sell_count": 8,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "*기모바지 [문의폭주🐻/단독진행] 베어 기모 힙 투웨이 사이드 핀턱 밴딩 와이드 팬츠 pt - 7color (허얇골넓,와이드팬츠,조거팬츠,투웨이바지,트레이닝바지,무릎늘어남X)",
+            "market_name": "데이원트",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/CCr8ET_ijvg/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIxXzE3MzQ3ODI5MDU2NzcxNTdtLmdpZg",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/6yPnrKSzaiQ/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MjI3NDIwOTkzMjg5MDMuanBlZw",
+            "discount_rate": 20,
+            "original_price": 38100,
+            "price": 30500
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 30500,
+          "discount_rate": 20,
+          "like": {
+            "goods_sno": 36652211,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 4
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36652211/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%2A%5Cuae30%5Cubaa8%5Cubc14%5Cuc9c0%20%5B%5Cubb38%5Cuc758%5Cud3ed%5Cuc8fc%5Cud83d%5Cudc3b%2F%5Cub2e8%5Cub3c5%5Cuc9c4%5Cud589%5D%20%5Cubca0%5Cuc5b4%20%5Cuae30%5Cubaa8%20%5Cud799%20%5Cud22c%5Cuc6e8%5Cuc774%20%5Cuc0ac%5Cuc774%5Cub4dc%20%5Cud540%5Cud131%20%5Cubc34%5Cub529%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cud32c%5Cuce20%20pt%20-%207color%20%28%5Cud5c8%5Cuc587%5Cuace8%5Cub113%2C%5Cuc640%5Cuc774%5Cub4dc%5Cud32c%5Cuce20%2C%5Cuc870%5Cuac70%5Cud32c%5Cuce20%2C%5Cud22c%5Cuc6e8%5Cuc774%5Cubc14%5Cuc9c0%2C%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%5Cubc14%5Cuc9c0%2C%5Cubb34%5Cub98e%5Cub298%5Cuc5b4%5Cub0a8X%29%22%2C%20%22market_name%22%3A%20%22%5Cub370%5Cuc774%5Cuc6d0%5Cud2b8%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FCCr8ET_ijvg%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIxXzE3MzQ3ODI5MDU2NzcxNTdtLmdpZg%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F6yPnrKSzaiQ%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MjI3NDIwOTkzMjg5MDMuanBlZw%22%2C%20%22discount_rate%22%3A%2020%2C%20%22original_price%22%3A%2038100%2C%20%22price%22%3A%2030500%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36652211",
+            "GOODS_NAME": "*기모바지 [문의폭주🐻/단독진행] 베어 기모 힙 투웨이 사이드 핀턱 밴딩 와이드 팬츠 pt - 7color (허얇골넓,와이드팬츠,조거팬츠,투웨이바지,트레이닝바지,무릎늘어남X)",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "60656",
+            "MARKET_NAME": "데이원트",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 20,
+            "SALES_PRICE": 30500,
+            "SALES_PRICE_RANGE": "30,001~35,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 39,
+            "LIKES_COUNT_RANGE": "1~50",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 4,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36652211,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 4,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/MJAU1vuc_w8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzcwYTM4N2NjZTA2MDEyYTljYzZjOWVlZjM2YzBkNGJkLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "*기모바지 [문의폭주🐻/단독진행] 베어 기모 힙 투웨이 사이드 핀턱 밴딩 와이드 팬츠 pt - 7color (허얇골넓,와이드팬츠,조거팬츠,투웨이바지,트레이닝바지,무릎늘어남X)",
+            "price": "30,500",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "20%",
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": null,
+            "market_name": "데이원트",
+            "store_text": "데이원트",
+            "nudging_text": "8개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 35195476,
+          "name": "[골반볼륨up!/숏ver,롱ver] 특양면 기모 사이드 핀턱 와이드 롱팬츠 4color",
+          "market_sno": 1211,
+          "market_name": "럽앤썸",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/9MAxMBWCBwg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2YwMGI5MjRiYzIzY2FhMjk4MzkyMGFkOTM2YzIyMjgwLmdpZg",
+          "closed_reason": null,
+          "sell_count": 1222,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "[골반볼륨up!/숏ver,롱ver] 특양면 기모 사이드 핀턱 와이드 롱팬츠 4color",
+            "market_name": "럽앤썸",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/847HVBP_MzE/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTMwXzE3MzI5NDYzNTg4MzUwODBtLmdpZg",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/xNX9wdRVPQI/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NzE2MDEzNTc5OTM4MDAuanBn",
+            "discount_rate": 7,
+            "original_price": 22500,
+            "price": 20920
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 20920,
+          "discount_rate": 7,
+          "like": {
+            "goods_sno": 35195476,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 5
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/35195476/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuace8%5Cubc18%5Cubcfc%5Cub968up%21%2F%5Cuc20fver%2C%5Cub871ver%5D%20%5Cud2b9%5Cuc591%5Cuba74%20%5Cuae30%5Cubaa8%20%5Cuc0ac%5Cuc774%5Cub4dc%20%5Cud540%5Cud131%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cub871%5Cud32c%5Cuce20%204color%22%2C%20%22market_name%22%3A%20%22%5Cub7fd%5Cuc564%5Cuc378%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F847HVBP_MzE%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTMwXzE3MzI5NDYzNTg4MzUwODBtLmdpZg%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FxNX9wdRVPQI%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NzE2MDEzNTc5OTM4MDAuanBn%22%2C%20%22discount_rate%22%3A%207%2C%20%22original_price%22%3A%2022500%2C%20%22price%22%3A%2020920%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "35195476",
+            "GOODS_NAME": "[골반볼륨up!/숏ver,롱ver] 특양면 기모 사이드 핀턱 와이드 롱팬츠 4color",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "1211",
+            "MARKET_NAME": "럽앤썸",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 7,
+            "SALES_PRICE": 20920,
+            "SALES_PRICE_RANGE": "20,001~25,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 71,
+            "REVIEW_COUNT_RANGE": "51~100",
+            "REVIEW_RATING": 88,
+            "LIKES_COUNT": 3616,
+            "LIKES_COUNT_RANGE": "3,601~3,650",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 5,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 35195476,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 5,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/9MAxMBWCBwg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2YwMGI5MjRiYzIzY2FhMjk4MzkyMGFkOTM2YzIyMjgwLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "[골반볼륨up!/숏ver,롱ver] 특양면 기모 사이드 핀턱 와이드 롱팬츠 4color",
+            "price": "20,920",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "7%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "럽앤썸",
+            "store_text": "럽앤썸",
+            "nudging_text": "1,222개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36751108,
+          "name": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11112 Gray",
+          "market_sno": 44097,
+          "market_name": "주식회사구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/cPzuX3898sY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2EwNmUyMTEwMzQ3N2YzYWUxYmZkNmFjMTU2ZjQyYTM3LmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11112 Gray",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/uWuSM3Cls_Q/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2EwNmUyMTEwMzQ3N2YzYWUxYmZkNmFjMTU2ZjQyYTM3LmpwZw",
+            "market_image": null,
+            "discount_rate": 0,
+            "original_price": 519000,
+            "price": 519000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 519000,
+          "discount_rate": 0,
+          "like": {
+            "goods_sno": 36751108,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 6
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36751108/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2224FW%20%5Cuc5ec%5Cuc131%20%5Cud50c%5Cub9ac%5Cuce20%5Cud50c%5Cub9ac%5Cuc988%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cuc870%5Cuac70%20%5Cud32c%5Cuce20%20PP49JF11112%20Gray%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FuWuSM3Cls_Q%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2EwNmUyMTEwMzQ3N2YzYWUxYmZkNmFjMTU2ZjQyYTM3LmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%20519000%2C%20%22price%22%3A%20519000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36751108",
+            "GOODS_NAME": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11112 Gray",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44097",
+            "MARKET_NAME": "주식회사구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 0,
+            "SALES_PRICE": 519000,
+            "SALES_PRICE_RANGE": "515,001~520,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 6,
+            "BRAND_SNO": 2641,
+            "BRAND_NAME": "플리츠플리즈",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36751108,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 6,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/cPzuX3898sY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2EwNmUyMTEwMzQ3N2YzYWUxYmZkNmFjMTU2ZjQyYTM3LmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "24FW 여성 플리츠플리즈 트레이닝 조거 팬츠 PP49JF11112 Gray",
+            "price": "519,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": null,
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "플리츠플리즈",
+            "store_text": "<font color='#6093FC'>브랜드</font> 플리츠플리즈",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 9597377,
+          "name": "*일반&기모*1+1할인[숏&롱/인생핏] 에어 와이드한 데일리 밴딩팬츠",
+          "market_sno": 4036,
+          "market_name": "루너프",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/oHhQJL2q2Fs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzAxMzg3MjdmNDllZDhlOWVmMDE0YzgxYWIzMTlkZDFiLmdpZg",
+          "closed_reason": null,
+          "sell_count": 226896,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "*일반&기모*1+1할인[숏&롱/인생핏] 에어 와이드한 데일리 밴딩팬츠",
+            "market_name": "루너프",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/RPlHEEdujYk/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQwOTA0XzE3MjU0MjgyMTExNjU1OTNtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/dtz8w0UbfGs/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MTUxMjgyMjAwNjQ1NzMuanBn",
+            "discount_rate": 26,
+            "original_price": 18000,
+            "price": 13200
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 13200,
+          "discount_rate": 26,
+          "like": {
+            "goods_sno": 9597377,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 7
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/9597377/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%2A%5Cuc77c%5Cubc18%26%5Cuae30%5Cubaa8%2A1%2B1%5Cud560%5Cuc778%5B%5Cuc20f%26%5Cub871%2F%5Cuc778%5Cuc0dd%5Cud54f%5D%20%5Cuc5d0%5Cuc5b4%20%5Cuc640%5Cuc774%5Cub4dc%5Cud55c%20%5Cub370%5Cuc77c%5Cub9ac%20%5Cubc34%5Cub529%5Cud32c%5Cuce20%22%2C%20%22market_name%22%3A%20%22%5Cub8e8%5Cub108%5Cud504%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FRPlHEEdujYk%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQwOTA0XzE3MjU0MjgyMTExNjU1OTNtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fdtz8w0UbfGs%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MTUxMjgyMjAwNjQ1NzMuanBn%22%2C%20%22discount_rate%22%3A%2026%2C%20%22original_price%22%3A%2018000%2C%20%22price%22%3A%2013200%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "9597377",
+            "GOODS_NAME": "*일반&기모*1+1할인[숏&롱/인생핏] 에어 와이드한 데일리 밴딩팬츠",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "4036",
+            "MARKET_NAME": "루너프",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 26,
+            "SALES_PRICE": 13200,
+            "SALES_PRICE_RANGE": "10,001~15,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 57245,
+            "REVIEW_COUNT_RANGE": "57,201~57,250",
+            "REVIEW_RATING": 93,
+            "LIKES_COUNT": 228624,
+            "LIKES_COUNT_RANGE": "228,601~228,650",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 7,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 9597377,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 7,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/oHhQJL2q2Fs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzAxMzg3MjdmNDllZDhlOWVmMDE0YzgxYWIzMTlkZDFiLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "*일반&기모*1+1할인[숏&롱/인생핏] 에어 와이드한 데일리 밴딩팬츠",
+            "price": "13,200",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "26%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "루너프",
+            "store_text": "루너프",
+            "nudging_text": "226,896개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 31344800,
+          "name": "핫딜🔥[밑단스냅🤎/도톰융기모][140cm~/1+1할인/투웨이/겨울신상] 제이닝 140/150/160 기장선택 밍크 코듀로이 와이드 팬츠 겨울 골덴 교복 바지 당일",
+          "market_sno": 4444,
+          "market_name": "제이닝",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/4NjMBZDNqVs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzlkMmRiNDcxMDMzNWI4ZjIzNmI0YTFlNGE3YTYyMDZiLmdpZg",
+          "closed_reason": null,
+          "sell_count": 41385,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "핫딜🔥[밑단스냅🤎/도톰융기모][140cm~/1+1할인/투웨이/겨울신상] 제이닝 140/150/160 기장선택 밍크 코듀로이 와이드 팬츠 겨울 골덴 교복 바지 당일",
+            "market_name": "제이닝",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/I9lycAEiMKY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMDIxXzE3Mjk1MDY4MjYyNzE5NDJtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/qri8seOnUtc/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2Mjc4ODEzMzIzMzkzNDkuanBn",
+            "discount_rate": 58,
+            "original_price": 51500,
+            "price": 21500
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 21500,
+          "discount_rate": 58,
+          "like": {
+            "goods_sno": 31344800,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 8
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/31344800/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cud56b%5Cub51c%5Cud83d%5Cudd25%5B%5Cubc11%5Cub2e8%5Cuc2a4%5Cub0c5%5Cud83e%5Cudd0e%2F%5Cub3c4%5Cud1b0%5Cuc735%5Cuae30%5Cubaa8%5D%5B140cm~%2F1%2B1%5Cud560%5Cuc778%2F%5Cud22c%5Cuc6e8%5Cuc774%2F%5Cuaca8%5Cuc6b8%5Cuc2e0%5Cuc0c1%5D%20%5Cuc81c%5Cuc774%5Cub2dd%20140%2F150%2F160%20%5Cuae30%5Cuc7a5%5Cuc120%5Cud0dd%20%5Cubc0d%5Cud06c%20%5Cucf54%5Cub4c0%5Cub85c%5Cuc774%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cud32c%5Cuce20%20%5Cuaca8%5Cuc6b8%20%5Cuace8%5Cub374%20%5Cuad50%5Cubcf5%20%5Cubc14%5Cuc9c0%20%5Cub2f9%5Cuc77c%22%2C%20%22market_name%22%3A%20%22%5Cuc81c%5Cuc774%5Cub2dd%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FI9lycAEiMKY%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMDIxXzE3Mjk1MDY4MjYyNzE5NDJtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fqri8seOnUtc%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2Mjc4ODEzMzIzMzkzNDkuanBn%22%2C%20%22discount_rate%22%3A%2058%2C%20%22original_price%22%3A%2051500%2C%20%22price%22%3A%2021500%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "31344800",
+            "GOODS_NAME": "핫딜🔥[밑단스냅🤎/도톰융기모][140cm~/1+1할인/투웨이/겨울신상] 제이닝 140/150/160 기장선택 밍크 코듀로이 와이드 팬츠 겨울 골덴 교복 바지 당일",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "4444",
+            "MARKET_NAME": "제이닝",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 58,
+            "SALES_PRICE": 21500,
+            "SALES_PRICE_RANGE": "20,001~25,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 4447,
+            "REVIEW_COUNT_RANGE": "4,401~4,450",
+            "REVIEW_RATING": 91,
+            "LIKES_COUNT": 61824,
+            "LIKES_COUNT_RANGE": "61,801~61,850",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 8,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 31344800,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 8,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/4NjMBZDNqVs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzlkMmRiNDcxMDMzNWI4ZjIzNmI0YTFlNGE3YTYyMDZiLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "핫딜🔥[밑단스냅🤎/도톰융기모][140cm~/1+1할인/투웨이/겨울신상] 제이닝 140/150/160 기장선택 밍크 코듀로이 와이드 팬츠 겨울 골덴 교복 바지 당일",
+            "price": "21,500",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "58%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "제이닝",
+            "store_text": "제이닝",
+            "nudging_text": "41,385개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 32396742,
+          "name": "[왕도톰! 무조건만족! /기모안감] 융골덴 기모 스트링 와이드 팬츠 5color",
+          "market_sno": 1211,
+          "market_name": "럽앤썸",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/_XdRKUZocvs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFhYTljYmM3ZTU2YzEzZjMyYTE0MTdhNWNlNjcyYTYxLmdpZg",
+          "closed_reason": null,
+          "sell_count": 10674,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "[왕도톰! 무조건만족! /기모안감] 융골덴 기모 스트링 와이드 팬츠 5color",
+            "market_name": "럽앤썸",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/yX6NXQI6fWQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTA4XzE3MzEwNTE3NTkzNTA0MzJtLmdpZg",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/xNX9wdRVPQI/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NzE2MDEzNTc5OTM4MDAuanBn",
+            "discount_rate": 7,
+            "original_price": 14900,
+            "price": 13850
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 13850,
+          "discount_rate": 7,
+          "like": {
+            "goods_sno": 32396742,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 9
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/32396742/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuc655%5Cub3c4%5Cud1b0%21%20%5Cubb34%5Cuc870%5Cuac74%5Cub9cc%5Cuc871%21%20%2F%5Cuae30%5Cubaa8%5Cuc548%5Cuac10%5D%20%5Cuc735%5Cuace8%5Cub374%20%5Cuae30%5Cubaa8%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cud32c%5Cuce20%205color%22%2C%20%22market_name%22%3A%20%22%5Cub7fd%5Cuc564%5Cuc378%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FyX6NXQI6fWQ%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTA4XzE3MzEwNTE3NTkzNTA0MzJtLmdpZg%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FxNX9wdRVPQI%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NzE2MDEzNTc5OTM4MDAuanBn%22%2C%20%22discount_rate%22%3A%207%2C%20%22original_price%22%3A%2014900%2C%20%22price%22%3A%2013850%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "32396742",
+            "GOODS_NAME": "[왕도톰! 무조건만족! /기모안감] 융골덴 기모 스트링 와이드 팬츠 5color",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "1211",
+            "MARKET_NAME": "럽앤썸",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 7,
+            "SALES_PRICE": 13850,
+            "SALES_PRICE_RANGE": "10,001~15,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 748,
+            "REVIEW_COUNT_RANGE": "701~750",
+            "REVIEW_RATING": 89,
+            "LIKES_COUNT": 38233,
+            "LIKES_COUNT_RANGE": "38,201~38,250",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 9,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 32396742,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 9,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/_XdRKUZocvs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFhYTljYmM3ZTU2YzEzZjMyYTE0MTdhNWNlNjcyYTYxLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "[왕도톰! 무조건만족! /기모안감] 융골덴 기모 스트링 와이드 팬츠 5color",
+            "price": "13,850",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "7%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "럽앤썸",
+            "store_text": "럽앤썸",
+            "nudging_text": "10,674개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 35998384,
+          "name": "[기모안감🔥] 로컨 비조 스냅 절개 스트링 투웨이 와이드 밴딩 트레이닝 팬츠",
+          "market_sno": 28903,
+          "market_name": "온디드",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/Et2TIUmYZP8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZjZTZlYzg1ZTIxOWQ0NTg0NzEwOTA1YjE0NmVjNDVjLmdpZg",
+          "closed_reason": null,
+          "sell_count": 808,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "[기모안감🔥] 로컨 비조 스냅 절개 스트링 투웨이 와이드 밴딩 트레이닝 팬츠",
+            "market_name": "온디드",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/pQucYGsNA7c/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjExXzE3MzM4ODU0ODA1NzgzNjNtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/zq4VA-Orjaw/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzI3NjY0NzcwOTYxNzAuSlBH",
+            "discount_rate": 46,
+            "original_price": 23700,
+            "price": 12740
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 12740,
+          "discount_rate": 46,
+          "like": {
+            "goods_sno": 35998384,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 10
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/35998384/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuae30%5Cubaa8%5Cuc548%5Cuac10%5Cud83d%5Cudd25%5D%20%5Cub85c%5Cucee8%20%5Cube44%5Cuc870%20%5Cuc2a4%5Cub0c5%20%5Cuc808%5Cuac1c%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cud22c%5Cuc6e8%5Cuc774%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cubc34%5Cub529%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cud32c%5Cuce20%22%2C%20%22market_name%22%3A%20%22%5Cuc628%5Cub514%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FpQucYGsNA7c%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjExXzE3MzM4ODU0ODA1NzgzNjNtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fzq4VA-Orjaw%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzI3NjY0NzcwOTYxNzAuSlBH%22%2C%20%22discount_rate%22%3A%2046%2C%20%22original_price%22%3A%2023700%2C%20%22price%22%3A%2012740%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "35998384",
+            "GOODS_NAME": "[기모안감🔥] 로컨 비조 스냅 절개 스트링 투웨이 와이드 밴딩 트레이닝 팬츠",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "28903",
+            "MARKET_NAME": "온디드",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 46,
+            "SALES_PRICE": 12740,
+            "SALES_PRICE_RANGE": "10,001~15,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 2,
+            "REVIEW_COUNT_RANGE": "1~50",
+            "REVIEW_RATING": 100,
+            "LIKES_COUNT": 2493,
+            "LIKES_COUNT_RANGE": "2,451~2,500",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 10,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 35998384,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 10,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/Et2TIUmYZP8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZjZTZlYzg1ZTIxOWQ0NTg0NzEwOTA1YjE0NmVjNDVjLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "[기모안감🔥] 로컨 비조 스냅 절개 스트링 투웨이 와이드 밴딩 트레이닝 팬츠",
+            "price": "12,740",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "46%",
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": null,
+            "market_name": "온디드",
+            "store_text": "온디드",
+            "nudging_text": "808개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36776630,
+          "name": "23SS 남성 세퍼 스트레이트 팬츠 PREFW23MIKESUIT BEIGEBREEZE",
+          "market_sno": 44096,
+          "market_name": "구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/iTdJwuHkcAU/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZmMjQ5MzUyMTlmZWQyNDQyNWI0ZjZiZDBiNzI5ZDIxLmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "23SS 남성 세퍼 스트레이트 팬츠 PREFW23MIKESUIT BEIGEBREEZE",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/UfY0G3f0IR0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZmMjQ5MzUyMTlmZWQyNDQyNWI0ZjZiZDBiNzI5ZDIxLmpwZw",
+            "market_image": null,
+            "discount_rate": 44,
+            "original_price": 381000,
+            "price": 213000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 213000,
+          "discount_rate": 44,
+          "like": {
+            "goods_sno": 36776630,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 11
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36776630/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2223SS%20%5Cub0a8%5Cuc131%20%5Cuc138%5Cud37c%20%5Cuc2a4%5Cud2b8%5Cub808%5Cuc774%5Cud2b8%20%5Cud32c%5Cuce20%20PREFW23MIKESUIT%20BEIGEBREEZE%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FUfY0G3f0IR0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZmMjQ5MzUyMTlmZWQyNDQyNWI0ZjZiZDBiNzI5ZDIxLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2044%2C%20%22original_price%22%3A%20381000%2C%20%22price%22%3A%20213000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36776630",
+            "GOODS_NAME": "23SS 남성 세퍼 스트레이트 팬츠 PREFW23MIKESUIT BEIGEBREEZE",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44096",
+            "MARKET_NAME": "구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 44,
+            "SALES_PRICE": 213000,
+            "SALES_PRICE_RANGE": "210,001~215,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 11,
+            "BRAND_SNO": 6838,
+            "BRAND_NAME": "세퍼",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36776630,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 11,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/iTdJwuHkcAU/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZmMjQ5MzUyMTlmZWQyNDQyNWI0ZjZiZDBiNzI5ZDIxLmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "23SS 남성 세퍼 스트레이트 팬츠 PREFW23MIKESUIT BEIGEBREEZE",
+            "price": "213,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "44%",
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "세퍼",
+            "store_text": "<font color='#6093FC'>브랜드</font> 세퍼",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 21123732,
+          "name": "❤️MADE/기모추가❤️ 베리나 절개 핀턱 벌룬 핏 힙한 Y2K 트레이닝 팬츠",
+          "market_sno": 2347,
+          "market_name": "베이지수",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/Fiu0zDTbVJM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2IyNjViOGE3OTg4NGRiMDRjYWU5ZGQzM2I5OGFmN2ViLmdpZg",
+          "closed_reason": null,
+          "sell_count": 14296,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "❤️MADE/기모추가❤️ 베리나 절개 핀턱 벌룬 핏 힙한 Y2K 트레이닝 팬츠",
+            "market_name": "베이지수",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/nENYMHujX1Q/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTE5XzE3MzIwMDg0NDY2ODUyOThtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/w4t8aMUGpbI/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzQ5MzAyODg2NzY2NDQuanBn",
+            "discount_rate": 40,
+            "original_price": 30000,
+            "price": 17900
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 17900,
+          "discount_rate": 40,
+          "like": {
+            "goods_sno": 21123732,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 12
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/21123732/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cu2764%5Cufe0fMADE%2F%5Cuae30%5Cubaa8%5Cucd94%5Cuac00%5Cu2764%5Cufe0f%20%5Cubca0%5Cub9ac%5Cub098%20%5Cuc808%5Cuac1c%20%5Cud540%5Cud131%20%5Cubc8c%5Cub8ec%20%5Cud54f%20%5Cud799%5Cud55c%20Y2K%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cud32c%5Cuce20%22%2C%20%22market_name%22%3A%20%22%5Cubca0%5Cuc774%5Cuc9c0%5Cuc218%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FnENYMHujX1Q%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMTE5XzE3MzIwMDg0NDY2ODUyOThtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fw4t8aMUGpbI%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzQ5MzAyODg2NzY2NDQuanBn%22%2C%20%22discount_rate%22%3A%2040%2C%20%22original_price%22%3A%2030000%2C%20%22price%22%3A%2017900%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "21123732",
+            "GOODS_NAME": "❤️MADE/기모추가❤️ 베리나 절개 핀턱 벌룬 핏 힙한 Y2K 트레이닝 팬츠",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "2347",
+            "MARKET_NAME": "베이지수",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 40,
+            "SALES_PRICE": 17900,
+            "SALES_PRICE_RANGE": "15,001~20,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 1853,
+            "REVIEW_COUNT_RANGE": "1,851~1,900",
+            "REVIEW_RATING": 93,
+            "LIKES_COUNT": 28669,
+            "LIKES_COUNT_RANGE": "28,651~28,700",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 12,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 21123732,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 12,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/Fiu0zDTbVJM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2IyNjViOGE3OTg4NGRiMDRjYWU5ZGQzM2I5OGFmN2ViLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "❤️MADE/기모추가❤️ 베리나 절개 핀턱 벌룬 핏 힙한 Y2K 트레이닝 팬츠",
+            "price": "17,900",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "40%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "베이지수",
+            "store_text": "베이지수",
+            "nudging_text": "14,296개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 35115782,
+          "name": "[두툼기모❄️/2단기장] 한겨울까지, 절개 사이드 핀턱 코듀로이 롱 팬츠",
+          "market_sno": 28297,
+          "market_name": "무드라벨",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/F4EeWzZ54B0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY0YmM1MGZlYjIwNTg3ZDU3Y2I0MDEzYjQ0ZjYyMmNhLmdpZg",
+          "closed_reason": null,
+          "sell_count": 1237,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "[두툼기모❄️/2단기장] 한겨울까지, 절개 사이드 핀턱 코듀로이 롱 팬츠",
+            "market_name": "무드라벨",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/EvrhU2Rs3Oc/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjAzXzE3MzMxODExMjM1ODQyMDFtLnBuZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/d9vBzHUvsKc/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzM0MTIwMTY1MzE2NTMucG5n",
+            "discount_rate": 42,
+            "original_price": 25900,
+            "price": 14780
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 14780,
+          "discount_rate": 42,
+          "like": {
+            "goods_sno": 35115782,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 13
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/35115782/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cub450%5Cud23c%5Cuae30%5Cubaa8%5Cu2744%5Cufe0f%2F2%5Cub2e8%5Cuae30%5Cuc7a5%5D%20%5Cud55c%5Cuaca8%5Cuc6b8%5Cuae4c%5Cuc9c0%2C%20%5Cuc808%5Cuac1c%20%5Cuc0ac%5Cuc774%5Cub4dc%20%5Cud540%5Cud131%20%5Cucf54%5Cub4c0%5Cub85c%5Cuc774%20%5Cub871%20%5Cud32c%5Cuce20%22%2C%20%22market_name%22%3A%20%22%5Cubb34%5Cub4dc%5Cub77c%5Cubca8%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FEvrhU2Rs3Oc%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjAzXzE3MzMxODExMjM1ODQyMDFtLnBuZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fd9vBzHUvsKc%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzM0MTIwMTY1MzE2NTMucG5n%22%2C%20%22discount_rate%22%3A%2042%2C%20%22original_price%22%3A%2025900%2C%20%22price%22%3A%2014780%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "35115782",
+            "GOODS_NAME": "[두툼기모❄️/2단기장] 한겨울까지, 절개 사이드 핀턱 코듀로이 롱 팬츠",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "28297",
+            "MARKET_NAME": "무드라벨",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 42,
+            "SALES_PRICE": 14780,
+            "SALES_PRICE_RANGE": "10,001~15,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 79,
+            "REVIEW_COUNT_RANGE": "51~100",
+            "REVIEW_RATING": 93,
+            "LIKES_COUNT": 1992,
+            "LIKES_COUNT_RANGE": "1,951~2,000",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 13,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 35115782,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 13,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/F4EeWzZ54B0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY0YmM1MGZlYjIwNTg3ZDU3Y2I0MDEzYjQ0ZjYyMmNhLmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "[두툼기모❄️/2단기장] 한겨울까지, 절개 사이드 핀턱 코듀로이 롱 팬츠",
+            "price": "14,780",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "42%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "무드라벨",
+            "store_text": "무드라벨",
+            "nudging_text": "1,237개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 31700805,
+          "name": "*주문폭주/당일출고*[made/투웨이/예쁜핏보장] 로운 라운드 포켓 빅 와이드 롱 트레이닝 팬츠 3color",
+          "market_sno": 9270,
+          "market_name": "잇진",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/0tMsiZJpp10/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UzMDEwODdmNGQ4MDA0ZDZmY2FkYzc3YmI2MTE1ZGU3LmdpZg",
+          "closed_reason": null,
+          "sell_count": 8439,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "*주문폭주/당일출고*[made/투웨이/예쁜핏보장] 로운 라운드 포켓 빅 와이드 롱 트레이닝 팬츠 3color",
+            "market_name": "잇진",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/oXUyPxaJCAo/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMDI1XzE3Mjk4MjA0MzU3Nzc3OThtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/JON1lBNuUjk/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MjQ3MTk4MzY1NjY1NDMuanBn",
+            "discount_rate": 37,
+            "original_price": 26900,
+            "price": 16900
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 16900,
+          "discount_rate": 37,
+          "like": {
+            "goods_sno": 31700805,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 14
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/31700805/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%2A%5Cuc8fc%5Cubb38%5Cud3ed%5Cuc8fc%2F%5Cub2f9%5Cuc77c%5Cucd9c%5Cuace0%2A%5Bmade%2F%5Cud22c%5Cuc6e8%5Cuc774%2F%5Cuc608%5Cuc05c%5Cud54f%5Cubcf4%5Cuc7a5%5D%20%5Cub85c%5Cuc6b4%20%5Cub77c%5Cuc6b4%5Cub4dc%20%5Cud3ec%5Cucf13%20%5Cube45%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cub871%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cud32c%5Cuce20%203color%22%2C%20%22market_name%22%3A%20%22%5Cuc787%5Cuc9c4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FoXUyPxaJCAo%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMDI1XzE3Mjk4MjA0MzU3Nzc3OThtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FJON1lBNuUjk%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MjQ3MTk4MzY1NjY1NDMuanBn%22%2C%20%22discount_rate%22%3A%2037%2C%20%22original_price%22%3A%2026900%2C%20%22price%22%3A%2016900%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "31700805",
+            "GOODS_NAME": "*주문폭주/당일출고*[made/투웨이/예쁜핏보장] 로운 라운드 포켓 빅 와이드 롱 트레이닝 팬츠 3color",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "9270",
+            "MARKET_NAME": "잇진",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 37,
+            "SALES_PRICE": 16900,
+            "SALES_PRICE_RANGE": "15,001~20,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 1012,
+            "REVIEW_COUNT_RANGE": "1,001~1,050",
+            "REVIEW_RATING": 94,
+            "LIKES_COUNT": 14490,
+            "LIKES_COUNT_RANGE": "14,451~14,500",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 14,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 31700805,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 14,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/0tMsiZJpp10/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UzMDEwODdmNGQ4MDA0ZDZmY2FkYzc3YmI2MTE1ZGU3LmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "*주문폭주/당일출고*[made/투웨이/예쁜핏보장] 로운 라운드 포켓 빅 와이드 롱 트레이닝 팬츠 3color",
+            "price": "16,900",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "37%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "잇진",
+            "store_text": "잇진",
+            "nudging_text": "8,439개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36744915,
+          "name": "*2가지 기장 [기모🔥] 세미 부츠컷 트레이닝 바지 -pt",
+          "market_sno": 83615,
+          "market_name": "르와",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/y9BKbrTAfe0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIxXzE3MzQ3NzYwNDA5Njk2MTNtLmpwZw",
+          "closed_reason": null,
+          "sell_count": 1,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "*2가지 기장 [기모🔥] 세미 부츠컷 트레이닝 바지 -pt",
+            "market_name": "르와",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/9dFlMoDVijo/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIxXzE3MzQ3NzYwNDEzMDM4MjZtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/W3kSa4Uk1TM/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzQ0NTczOTc4MDgyNzkuanBn",
+            "discount_rate": 35,
+            "original_price": 32600,
+            "price": 21190
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 21190,
+          "discount_rate": 35,
+          "like": {
+            "goods_sno": 36744915,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 15
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36744915/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%2A2%5Cuac00%5Cuc9c0%20%5Cuae30%5Cuc7a5%20%5B%5Cuae30%5Cubaa8%5Cud83d%5Cudd25%5D%20%5Cuc138%5Cubbf8%20%5Cubd80%5Cuce20%5Cucef7%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cubc14%5Cuc9c0%20-pt%22%2C%20%22market_name%22%3A%20%22%5Cub974%5Cuc640%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F9dFlMoDVijo%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIxXzE3MzQ3NzYwNDEzMDM4MjZtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FW3kSa4Uk1TM%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzQ0NTczOTc4MDgyNzkuanBn%22%2C%20%22discount_rate%22%3A%2035%2C%20%22original_price%22%3A%2032600%2C%20%22price%22%3A%2021190%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36744915",
+            "GOODS_NAME": "*2가지 기장 [기모🔥] 세미 부츠컷 트레이닝 바지 -pt",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "83615",
+            "MARKET_NAME": "르와",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 35,
+            "SALES_PRICE": 21190,
+            "SALES_PRICE_RANGE": "20,001~25,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 3,
+            "LIKES_COUNT_RANGE": "1~50",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 15,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36744915,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 15,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET",
+          "contents": ["PRICE", "NAME", "MARKET"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/y9BKbrTAfe0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIxXzE3MzQ3NzYwNDA5Njk2MTNtLmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "*2가지 기장 [기모🔥] 세미 부츠컷 트레이닝 바지 -pt",
+            "price": "21,190",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "35%",
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": null,
+            "market_name": "르와",
+            "store_text": "르와",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36757588,
+          "name": "24FW 남성 아워레가시 트레이닝 조거 팬츠 M4246TBC Black",
+          "market_sno": 44097,
+          "market_name": "주식회사구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/NoyDHI09lEs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU5ZGJmNzRlNGUxM2FhOTVhY2FiYTk3NDYzZjI4MzQ4LmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "24FW 남성 아워레가시 트레이닝 조거 팬츠 M4246TBC Black",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/EqJJ678muaQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU5ZGJmNzRlNGUxM2FhOTVhY2FiYTk3NDYzZjI4MzQ4LmpwZw",
+            "market_image": null,
+            "discount_rate": 0,
+            "original_price": 428000,
+            "price": 428000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 428000,
+          "discount_rate": 0,
+          "like": {
+            "goods_sno": 36757588,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 16
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36757588/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2224FW%20%5Cub0a8%5Cuc131%20%5Cuc544%5Cuc6cc%5Cub808%5Cuac00%5Cuc2dc%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cuc870%5Cuac70%20%5Cud32c%5Cuce20%20M4246TBC%20Black%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FEqJJ678muaQ%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU5ZGJmNzRlNGUxM2FhOTVhY2FiYTk3NDYzZjI4MzQ4LmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%20428000%2C%20%22price%22%3A%20428000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36757588",
+            "GOODS_NAME": "24FW 남성 아워레가시 트레이닝 조거 팬츠 M4246TBC Black",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44097",
+            "MARKET_NAME": "주식회사구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 0,
+            "SALES_PRICE": 428000,
+            "SALES_PRICE_RANGE": "425,001~430,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 16,
+            "BRAND_SNO": 2347,
+            "BRAND_NAME": "아워레가시",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36757588,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 16,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/NoyDHI09lEs/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU5ZGJmNzRlNGUxM2FhOTVhY2FiYTk3NDYzZjI4MzQ4LmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "24FW 남성 아워레가시 트레이닝 조거 팬츠 M4246TBC Black",
+            "price": "428,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": null,
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "아워레가시",
+            "store_text": "<font color='#6093FC'>브랜드</font> 아워레가시",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 14468016,
+          "name": "기모추가! [기획가🖤/핏보장/기장선택] 필링 워싱 사이드 핀턱 와이드 pt - 4color",
+          "market_sno": 1162,
+          "market_name": "모디무드",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/FvIHPmfa3b0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzllYjc2ZWJkY2VkOGEzZWE3NzAwMTE1ZmI5ZGQ0NGU4LmdpZg",
+          "closed_reason": null,
+          "sell_count": 103984,
+          "delivery_type": "today",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "기모추가! [기획가🖤/핏보장/기장선택] 필링 워싱 사이드 핀턱 와이드 pt - 4color",
+            "market_name": "모디무드",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/8YLCxpZeKoI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMDMxXzE3MzAzNTA2ODc4NTk4MzZtLmpwZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/KiWXcO_zy5o/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzMzMjY2NDY3NjQ2NDAuanBlZw",
+            "discount_rate": 30,
+            "original_price": 39900,
+            "price": 27800
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 27800,
+          "discount_rate": 30,
+          "like": {
+            "goods_sno": 14468016,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 17
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "쇼핑몰",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/14468016/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cuae30%5Cubaa8%5Cucd94%5Cuac00%21%20%5B%5Cuae30%5Cud68d%5Cuac00%5Cud83d%5Cudda4%2F%5Cud54f%5Cubcf4%5Cuc7a5%2F%5Cuae30%5Cuc7a5%5Cuc120%5Cud0dd%5D%20%5Cud544%5Cub9c1%20%5Cuc6cc%5Cuc2f1%20%5Cuc0ac%5Cuc774%5Cub4dc%20%5Cud540%5Cud131%20%5Cuc640%5Cuc774%5Cub4dc%20pt%20-%204color%22%2C%20%22market_name%22%3A%20%22%5Cubaa8%5Cub514%5Cubb34%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F8YLCxpZeKoI%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMDMxXzE3MzAzNTA2ODc4NTk4MzZtLmpwZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FKiWXcO_zy5o%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3MzMzMjY2NDY3NjQ2NDAuanBlZw%22%2C%20%22discount_rate%22%3A%2030%2C%20%22original_price%22%3A%2039900%2C%20%22price%22%3A%2027800%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "14468016",
+            "GOODS_NAME": "기모추가! [기획가🖤/핏보장/기장선택] 필링 워싱 사이드 핀턱 와이드 pt - 4color",
+            "MARKET_TYPE": "쇼핑몰",
+            "MARKET_SNO": "1162",
+            "MARKET_NAME": "모디무드",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 30,
+            "SALES_PRICE": 27800,
+            "SALES_PRICE_RANGE": "25,001~30,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "today",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "8",
+            "REVIEW_COUNT": 17734,
+            "REVIEW_COUNT_RANGE": "17,701~17,750",
+            "REVIEW_RATING": 95,
+            "LIKES_COUNT": 195308,
+            "LIKES_COUNT_RANGE": "195,301~195,350",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 17,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 14468016,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 17,
+            "schema_name": "Goods",
+            "pool": "pop_reco"
+          }
+        },
+        "render": {
+          "type": "MARKET_NUDGING",
+          "contents": ["PRICE", "NAME", "MARKET", "NUDGING"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/FvIHPmfa3b0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzllYjc2ZWJkY2VkOGEzZWE3NzAwMTE1ZmI5ZGQ0NGU4LmdpZg",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "기모추가! [기획가🖤/핏보장/기장선택] 필링 워싱 사이드 핀턱 와이드 pt - 4color",
+            "price": "27,800",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "30%",
+            "closed_reason": null,
+            "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+            "image_badge_width": 46,
+            "image_badge_height": 18,
+            "chips": null,
+            "market_name": "모디무드",
+            "store_text": "모디무드",
+            "nudging_text": "103,984개 구매중",
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36804307,
+          "name": "기모 스냅 벌룬 팬츠",
+          "market_sno": 80314,
+          "market_name": "리비온",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/ZgOVSEb-2vA/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIyXzE3MzQ4NzI4OTk2OTEyNTdtLnBuZw",
+          "closed_reason": null,
+          "sell_count": 1,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "기모 스냅 벌룬 팬츠",
+            "market_name": "리비온",
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/rqc1MmB2kD0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIyXzE3MzQ4NzI5MDAwOTQwNzRtLnBuZw",
+            "market_image": "https://d3ha2047wt6x28.cloudfront.net/fHQkrwFtSKY/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3Mjk2ODA3MjY1NzE0OTQuanBn",
+            "discount_rate": 37,
+            "original_price": 47800,
+            "price": 29900
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": true,
+          "price": 29900,
+          "discount_rate": 37,
+          "like": {
+            "goods_sno": 36804307,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 18
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "셀럽",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36804307/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cuae30%5Cubaa8%20%5Cuc2a4%5Cub0c5%20%5Cubc8c%5Cub8ec%20%5Cud32c%5Cuce20%22%2C%20%22market_name%22%3A%20%22%5Cub9ac%5Cube44%5Cuc628%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Frqc1MmB2kD0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIyXzE3MzQ4NzI5MDAwOTQwNzRtLnBuZw%22%2C%20%22market_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FfHQkrwFtSKY%2Fpr%3AMARKET_PROFILE_THUMB%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE3Mjk2ODA3MjY1NzE0OTQuanBn%22%2C%20%22discount_rate%22%3A%2037%2C%20%22original_price%22%3A%2047800%2C%20%22price%22%3A%2029900%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36804307",
+            "GOODS_NAME": "기모 스냅 벌룬 팬츠",
+            "MARKET_TYPE": "셀럽",
+            "MARKET_SNO": "80314",
+            "MARKET_NAME": "리비온",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 37,
+            "SALES_PRICE": 29900,
+            "SALES_PRICE_RANGE": "25,001~30,000",
+            "IS_NEW": "1",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "7",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 3,
+            "LIKES_COUNT_RANGE": "1~50",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": [],
+            "UPCOMMING_SOLDOUT": "",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 18,
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36804307,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 18,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET",
+          "contents": ["PRICE", "NAME", "MARKET"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/ZgOVSEb-2vA/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjIyXzE3MzQ4NzI4OTk2OTEyNTdtLnBuZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "기모 스냅 벌룬 팬츠",
+            "price": "29,900",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "37%",
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": null,
+            "market_name": "리비온",
+            "store_text": "리비온",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    },
+    {
+      "type": "GOODS_CARD",
+      "item_entity": {
+        "item": {
+          "sno": 36763674,
+          "name": "23FW 남성 디키즈 스트레이트 팬츠 DK0A4XK6BLK1 BLK1 black",
+          "market_sno": 44096,
+          "market_name": "구하다",
+          "image": "https://d3ha2047wt6x28.cloudfront.net/DcuhNqodvLo/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzRlZTUzMDZmYTE2ZTIyMWQ2NTUzOTgwNzhmNDQ3YzE5LmpwZw",
+          "closed_reason": null,
+          "sell_count": 0,
+          "delivery_type": "standard",
+          "ranking": null,
+          "available_only_new_member": false,
+          "first_page_rendering": {
+            "goods_name": "23FW 남성 디키즈 스트레이트 팬츠 DK0A4XK6BLK1 BLK1 black",
+            "market_name": null,
+            "cover_image": "https://d3ha2047wt6x28.cloudfront.net/8HfvPup2wgI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzRlZTUzMDZmYTE2ZTIyMWQ2NTUzOTgwNzhmNDQ3YzE5LmpwZw",
+            "market_image": null,
+            "discount_rate": 31,
+            "original_price": 191000,
+            "price": 131000
+          },
+          "is_premium_hotdeal": false,
+          "is_hotdeal": false,
+          "is_new": false,
+          "price": 131000,
+          "discount_rate": 31,
+          "like": {
+            "goods_sno": 36763674,
+            "is_liked": false,
+            "folder_sno": null,
+            "referrer": {
+              "list_id": "category_sub_list_recommend",
+              "list_index": 19
+            }
+          },
+          "ad": null,
+          "on_return": null,
+          "market_type": "프리미엄 브랜드",
+          "category_name": "롱팬츠",
+          "feedback_type": null,
+          "remote_deeplink": "ably://goods/36763674/?list_id=category_sub_list_recommend&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%2223FW%20%5Cub0a8%5Cuc131%20%5Cub514%5Cud0a4%5Cuc988%20%5Cuc2a4%5Cud2b8%5Cub808%5Cuc774%5Cud2b8%20%5Cud32c%5Cuce20%20DK0A4XK6BLK1%20BLK1%20black%22%2C%20%22market_name%22%3A%20null%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F8HfvPup2wgI%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzRlZTUzMDZmYTE2ZTIyMWQ2NTUzOTgwNzhmNDQ3YzE5LmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2031%2C%20%22original_price%22%3A%20191000%2C%20%22price%22%3A%20131000%7D"
+        },
+        "logging": {
+          "analytics": {
+            "GOODS_SNO": "36763674",
+            "GOODS_NAME": "23FW 남성 디키즈 스트레이트 팬츠 DK0A4XK6BLK1 BLK1 black",
+            "MARKET_TYPE": "프리미엄 브랜드",
+            "MARKET_SNO": "44096",
+            "MARKET_NAME": "구하다",
+            "CATEGORY_SNO": "176",
+            "CATEGORY_NAME": "롱팬츠",
+            "STANDARD_CATEGORY_SNO": "73",
+            "STANDARD_CATEGORY_NAME": "롱팬츠",
+            "DISCOUNT_RATE": 31,
+            "SALES_PRICE": 131000,
+            "SALES_PRICE_RANGE": "130,001~135,000",
+            "IS_NEW": "0",
+            "DELIVERY_TYPE": "standard",
+            "IS_AD": "0",
+            "LIST_PARAMS": null,
+            "MARKET_TYPE_SNO": "16",
+            "REVIEW_COUNT": 0,
+            "REVIEW_COUNT_RANGE": "0",
+            "REVIEW_RATING": 0,
+            "LIKES_COUNT": 0,
+            "LIKES_COUNT_RANGE": "0",
+            "DELIVERY_SCORE": null,
+            "PROMOTION_TAG": ["BRAND", "REMAIN_STOCK_COUNT"],
+            "UPCOMMING_SOLDOUT": "B",
+            "HAS_AWARD": false,
+            "IS_ONLY_ABLY": false,
+            "LIST_ID": "category_sub_list_recommend",
+            "LIST_INDEX": 19,
+            "BRAND_SNO": 1095,
+            "BRAND_NAME": "디키즈",
+            "CARD_TYPE": "GOODS_CARD"
+          },
+          "inhouse": {
+            "goods_sno": 36763674,
+            "list_id": "category_sub_list_recommend",
+            "list_index": 19,
+            "schema_name": "Goods",
+            "pool": "cbf"
+          }
+        },
+        "render": {
+          "type": "MARKET_CHIPS",
+          "contents": ["PRICE", "NAME", "MARKET", "CHIPS"],
+          "size": "MEDIUM",
+          "data": {
+            "image": {
+              "url": "https://d3ha2047wt6x28.cloudfront.net/DcuhNqodvLo/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzRlZTUzMDZmYTE2ZTIyMWQ2NTUzOTgwNzhmNDQ3YzE5LmpwZw",
+              "use_animation": true,
+              "ratio": 1.2
+            },
+            "name": "23FW 남성 디키즈 스트레이트 팬츠 DK0A4XK6BLK1 BLK1 black",
+            "price": "131,000",
+            "has_ad_badge": false,
+            "name_lines": 1,
+            "discount_rate": "31%",
+            "closed_reason": null,
+            "image_badge": null,
+            "image_badge_width": null,
+            "image_badge_height": null,
+            "chips": [
+              {
+                "type": "BRAND",
+                "name": "브랜드"
+              },
+              {
+                "meta": {
+                  "text_style": "subtitle6",
+                  "text_color": "#FF5160",
+                  "bg_color": "#FFEFF2",
+                  "border_color": "#FFEFF2",
+                  "border_width": 1,
+                  "rounded_corner_radius": 2
+                },
+                "name": "품절임박",
+                "type": "DITTO_TEXT"
+              }
+            ],
+            "market_name": "디키즈",
+            "store_text": "<font color='#6093FC'>브랜드</font> 디키즈",
+            "nudging_text": null,
+            "ranking": null,
+            "actions": ["LIKE"],
+            "discount_end_text": null,
+            "top_nudging_text": null,
+            "price_description": null,
+            "today_delivery_order_deadline_time": null
+          }
+        }
+      }
+    }
+  ],
+  "total": 70
+}
