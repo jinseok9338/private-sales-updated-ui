@@ -1,7 +1,7 @@
 "use client";
 
 import { ChevronRight } from "lucide-react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import type { HotDealItem } from "~/@types/hotdeal/hotdeal";
 
 interface RankedProductsProps {
@@ -16,9 +16,9 @@ export function HotDealProducts({}: RankedProductsProps) {
     <div className="py-6">
       <div className="flex justify-between items-center px-4 mb-4">
         <h2 className="text-lg font-bold">실시간 롱팬츠 랭킹</h2>
-        <a href="#" className="text-blue-500 text-sm flex items-center">
+        <Link to={'#'} className="text-blue-500 text-sm flex items-center">
           전체보기 <ChevronRight className="h-4 w-4" />
-        </a>
+        </Link>
       </div>
       <div className="flex gap-4 overflow-x-auto px-4">
         {products.map((product) => (
