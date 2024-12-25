@@ -1,8 +1,16 @@
 import { reactRouter } from "@react-router/dev/vite";
 import autoprefixer from "autoprefixer";
+import languageUpdate from "./scripts/languageUpdate/languageUpdate";
+
 import tailwindcss from "tailwindcss";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
+
+const i18nConfig = {
+  csvFile: "language.csv",
+  support: ["ko", "en"],
+  outputPath: "app/lang",
+};
 
 export default defineConfig({
   css: {
@@ -11,5 +19,5 @@ export default defineConfig({
     },
   },
 
-  plugins: [reactRouter(), tsconfigPaths()],
+  plugins: [reactRouter(), tsconfigPaths(), languageUpdate(i18nConfig)],
 });

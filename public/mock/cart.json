@@ -1,0 +1,209 @@
+{
+  "cart_items": [
+    {
+      "title": "포미 배송상품",
+      "description": null,
+      "delivery_type": "standard",
+      "goods_sections": [
+        {
+          "section_key": "1923standard",
+          "title": "포미",
+          "delivery_origin": 1923,
+          "delivery_type": "standard",
+          "goods_count": 1,
+          "goods": [
+            {
+              "sno": 35047775,
+              "name": "아이폰SE SE1 1세대 스페이스그레이 실버 로즈골드 골드",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/IqjBh9e-EkI/pr:GOODS_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzJlZTQ3YWJiNDc1YmIyMjZlOWMwYjg0OTFiZmI3NDQ2LnBuZw",
+              "image_badge": null,
+              "is_buyable": true,
+              "is_open": true,
+              "is_new": false,
+              "is_required_invoice": true,
+              "option": {
+                "sno": 276965631,
+                "option_names": ["실버", "64GB", "S condition"],
+                "original_price": 215000,
+                "price": 175750,
+                "member_level_price": 175750,
+                "point": 1750,
+                "is_soldout": false,
+                "is_delayed": false,
+                "text_option": null
+              },
+              "cart_sno": 1001572925,
+              "ea": 1,
+              "consumer": 215000,
+              "price": 175750,
+              "goods_dc": 39250,
+              "member_dc": 0,
+              "reserve": 0,
+              "stock": 258,
+              "market_name": "포미",
+              "market_sno": 64261,
+              "market_client_display_type_name": "셀럽",
+              "today_delivery_order_deadline_time": null,
+              "category": {
+                "sno": 567,
+                "name": "가전/디지털",
+                "depth": 1,
+                "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNTY3fSwgImQiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNTY3fQ==",
+                "representative_image_url": null
+              },
+              "standard_category": {
+                "sno": 537,
+                "name": "스마트폰"
+              },
+              "available_only_new_member": false,
+              "option_components": [
+                {
+                  "sno": 1276965631,
+                  "depth": 1,
+                  "name": "실버",
+                  "is_final_depth": false,
+                  "goods_option": null
+                },
+                {
+                  "sno": 2276965631,
+                  "depth": 2,
+                  "name": "64GB",
+                  "is_final_depth": true,
+                  "goods_option": null
+                }
+              ],
+              "text_option": null,
+              "delivery_type": "standard",
+              "display_delivery_type": 0,
+              "standard_delivery_message": null,
+              "delivery_lead_days": null,
+              "is_delayed": false,
+              "delivery_score": 98,
+              "is_delivery_lead_days_market_provided": false,
+              "recommend_goods_button_text": null,
+              "recommend_goods": {
+                "list_id": "goods_list_delay_recommend",
+                "item_list": [],
+                "total_count": 0,
+                "title": "배송이 빠른 비슷한 상품들"
+              },
+              "is_overseas_delivery": true,
+              "discount_finished_at": null,
+              "price_change_amount": null
+            }
+          ],
+          "delivery_fee": 0,
+          "rural_extra_delivery_fee": 3500,
+          "origin_delivery_types": [0],
+          "display_delivery_types": [0],
+          "minimum_order_amount": 0,
+          "minimum_order_required_category": null,
+          "filled_minimum_order_amount": 0
+        }
+      ]
+    },
+    {
+      "title": "로랜텍 배송상품",
+      "description": null,
+      "delivery_type": "standard",
+      "goods_sections": [
+        {
+          "section_key": "38058standard",
+          "title": "로랜텍",
+          "delivery_origin": 38058,
+          "delivery_type": "standard",
+          "goods_count": 1,
+          "goods": [
+            {
+              "sno": 10778977,
+              "name": "[✨1+1/🚀오늘출발] 아이폰 사생활보호필름 풀커버 강화유리 액정보호필름 프라이버시16 15 14 13 12 11 XS XR MAX SE3 2 프로 맥스 미니 케이스 아이폰필름",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/-vqskS-qX44/pr:GOODS_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2EyOWVlYjAwMzdhNzVmZGY4ZDZkMmZjZmJiODIyMmU5LmdpZg",
+              "image_badge": "https://d3ha2047wt6x28.cloudfront.net/Wj1KnsGupJA/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvZGVsaXZlcnktdHlwZS90b2RheV9kZWxpdmVyeV9tZWRpdW0ucG5n",
+              "is_buyable": true,
+              "is_open": true,
+              "is_new": false,
+              "is_required_invoice": true,
+              "option": {
+                "sno": 262435693,
+                "option_names": ["더스트넷 강화유리 2매", "아이폰16프로"],
+                "original_price": 16800,
+                "price": 6800,
+                "member_level_price": 6800,
+                "point": 60,
+                "is_soldout": false,
+                "is_delayed": false,
+                "text_option": null
+              },
+              "cart_sno": 1001572542,
+              "ea": 1,
+              "consumer": 16800,
+              "price": 6800,
+              "goods_dc": 10000,
+              "member_dc": 0,
+              "reserve": 0,
+              "stock": 29985,
+              "market_name": "로랜텍",
+              "market_sno": 19631,
+              "market_client_display_type_name": "셀럽",
+              "today_delivery_order_deadline_time": "15:00:00",
+              "category": {
+                "sno": 592,
+                "name": "보호필름",
+                "depth": 1,
+                "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNTkyfSwgImQiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNTkyfQ==",
+                "representative_image_url": null
+              },
+              "standard_category": {
+                "sno": 501,
+                "name": "보호필름"
+              },
+              "available_only_new_member": false,
+              "option_components": [
+                {
+                  "sno": 1262435693,
+                  "depth": 1,
+                  "name": "더스트넷 강화유리 2매",
+                  "is_final_depth": false,
+                  "goods_option": null
+                },
+                {
+                  "sno": 2262435693,
+                  "depth": 2,
+                  "name": "아이폰16프로",
+                  "is_final_depth": true,
+                  "goods_option": null
+                }
+              ],
+              "text_option": null,
+              "delivery_type": "today",
+              "display_delivery_type": 3,
+              "standard_delivery_message": null,
+              "delivery_lead_days": null,
+              "is_delayed": false,
+              "delivery_score": 99,
+              "is_delivery_lead_days_market_provided": false,
+              "recommend_goods_button_text": null,
+              "recommend_goods": {
+                "list_id": "goods_list_delay_recommend",
+                "item_list": [],
+                "total_count": 0,
+                "title": "배송이 빠른 비슷한 상품들"
+              },
+              "is_overseas_delivery": false,
+              "discount_finished_at": null,
+              "price_change_amount": null
+            }
+          ],
+          "delivery_fee": 0,
+          "rural_extra_delivery_fee": 0,
+          "origin_delivery_types": [3],
+          "display_delivery_types": [3],
+          "minimum_order_amount": 0,
+          "minimum_order_required_category": null,
+          "filled_minimum_order_amount": 0
+        }
+      ]
+    }
+  ],
+  "carts_count": 2
+}
