@@ -138,6 +138,9 @@ importers:
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -1461,6 +1464,11 @@ packages:
   http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
     engines: {node: '>= 0.8'}
+
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   i18next-browser-languagedetector@8.0.2:
     resolution: {integrity: sha512-shBvPmnIyZeD2VU5jVGIOWP7u9qNG3Lj7mpaiPFpbJ3LVfHZJvVzKR4v1Cb91wAOFpNw442N+LGPzHOHsten2g==}
@@ -3700,6 +3708,8 @@ snapshots:
       setprototypeof: 1.2.0
       statuses: 2.0.1
       toidentifier: 1.0.1
+
+  husky@9.1.7: {}
 
   i18next-browser-languagedetector@8.0.2:
     dependencies:
