@@ -41,6 +41,18 @@ export default function languageUpdate(config: II18nConfig) {
       try {
         const key = [...row[schema.category].split("/"), row[schema.key]];
 
+        if (
+          !Number.isNaN(parseInt(row[schema.key])) &&
+          typeof parseInt(row[schema.key]) === "number"
+        ) {
+          logger.warn(
+            `${row[schema.category]}-${
+              row[schema.key]
+            } is not valid. Change the key or category.`
+          );
+          return;
+        }
+
         config.support.forEach((lang) => {
           if (row[lang] !== undefined) {
             set(localize[lang], key, row[lang]);
