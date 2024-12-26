@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ChevronUp } from "lucide-react";
 import type { AgeGroup } from "~/@types/search/search";
 import { ageGroups, searchTrendsData } from "~/mocks/search";
+import { Button } from "~/components/ui/button";
 
 export default function SearchPage() {
   const [selectedAge, setSelectedAge] = useState<AgeGroup>("전체");
@@ -25,17 +26,17 @@ export default function SearchPage() {
         {/* Age filter buttons */}
         <div className="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4">
           {ageGroups.map((age) => (
-            <button
+            <Button
               key={age}
               onClick={() => setSelectedAge(age)}
-              className={`whitespace-nowrap px-4 py-2 rounded-full text-sm ${
+              className={`whitespace-nowrap px-4 py-2 rounded-full text-sm shadow-none ${
                 selectedAge === age
                   ? "bg-gray-700 text-white"
                   : "bg-white text-gray-700 border"
               }`}
             >
               {age}
-            </button>
+            </Button>
           ))}
         </div>
 
