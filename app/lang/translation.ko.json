@@ -1,0 +1,11 @@
+{
+  "common": {
+    "button": {
+      "search": "검삭",
+      "search2": "검삭2"
+    },
+    "error": {
+      "not-found": "404"
+    }
+  }
+}

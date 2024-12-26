@@ -1,0 +1,11 @@
+{
+  "common": {
+    "button": {
+      "search": "sear3ch",
+      "search2": "search2"
+    },
+    "error": {
+      "not-found": "404"
+    }
+  }
+}
