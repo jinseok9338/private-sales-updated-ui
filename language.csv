@@ -1,6 +1,25 @@
-﻿category,key,ko,en
-header/search,placeholder,검색,search
-footer/path,home,홈,home
+category,key,ko,en
+cart,discount,상품할인,discount
+cart,select,선택삭제,unselect
+cart,selectall,전체 선택,select all
+cart/button,order,추가,order
+cart/delivery,fee,배송비,delivery fee
+cart/delivery,noFee,무료배송,free delivery
+cart/delivery,product,배송상품,delivery products
+cart/empty,addProduct,새로운 상품으로 채워주세요,Add a new product
+cart/empty,noProduct,장바구니가 비어있어요,The cart is empty
+cart/empty,seeMore,상품 보러가기,see more
+cart/total,estimatedPoints,예상 적립포인트,estimated points
+cart/total,total,총 상품금액,total
+cart/total,totalProductsPrice,총 {{n}} 개 주문금액,total {{0}} orders price
+categories/error,not-found,상품을 불러오는 중 오류가 발생했습니다., Error loading products
+categories/header,purchasing,{{n}}개 구매중,buying {{0}} items
+categories/header,seeAll,전체보기,see all
+categories/recommend,title,회원님을 위한 추천 상품,Recommended products
+common,currency,{{n}}원,KRW {{n}}
 footer/path,categories,전체보기,all
-footer/path,search,검색,search
+footer/path,home,홈,home
 footer/path,me,마이페이지,me
+footer/path,search,검색,search
+header/search,placeholder,검색,search
+search/header,title,인기 검색어,trending search words

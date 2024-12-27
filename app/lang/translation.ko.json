@@ -1,15 +1,58 @@
 {
+  "cart": {
+    "discount": "상품할인",
+    "select": "선택삭제",
+    "selectall": "전체 선택",
+    "button": {
+      "order": "추가"
+    },
+    "delivery": {
+      "fee": "배송비",
+      "noFee": "무료배송",
+      "product": "배송상품"
+    },
+    "empty": {
+      "addProduct": "새로운 상품으로 채워주세요",
+      "noProduct": "장바구니가 비어있어요",
+      "seeMore": "상품 보러가기"
+    },
+    "total": {
+      "estimatedPoints": "예상 적립포인트",
+      "total": "총 상품금액",
+      "totalProductsPrice": "총 {{n}} 개 주문금액"
+    }
+  },
+  "categories": {
+    "error": {
+      "not-found": "상품을 불러오는 중 오류가 발생했습니다."
+    },
+    "header": {
+      "purchasing": "{{n}}개 구매중",
+      "seeAll": "전체보기"
+    },
+    "recommend": {
+      "title": "회원님을 위한 추천 상품"
+    }
+  },
+  "common": {
+    "currency": "{{n}}원"
+  },
+  "footer": {
+    "path": {
+      "categories": "전체보기",
+      "home": "홈",
+      "me": "마이페이지",
+      "search": "검색"
+    }
+  },
   "header": {
     "search": {
       "placeholder": "검색"
     }
   },
-  "footer": {
-    "path": {
-      "home": "홈",
-      "categories": "전체보기",
-      "search": "검색",
-      "me": "마이페이지"
+  "search": {
+    "header": {
+      "title": "인기 검색어"
     }
   }
 }

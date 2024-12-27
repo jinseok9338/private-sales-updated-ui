@@ -6,6 +6,7 @@ import { EmptyCart } from "./components/emptyCart";
 import { Checkbox } from "~/components/ui/checkbox";
 import { CartItemComponent } from "./components/cart-item";
 import { CartSummary } from "./components/cart-summary";
+import { useTranslation } from "react-i18next";
 
 // Mock data - replace with actual data fetching
 const mockCartItems: CartItem[] = [
@@ -66,6 +67,7 @@ const mockCartItems: CartItem[] = [
 
 export default function CartPage() {
   const [cartItems, setCartItems] = useState<CartItem[]>(mockCartItems);
+  const { t } = useTranslation();
 
   const isEmpty = cartItems.length === 0;
   const selectedCount = cartItems.filter((item) => item.isSelected).length;
@@ -129,15 +131,17 @@ export default function CartPage() {
             onCheckedChange={(checked) => handleSelectAll(checked as boolean)}
           />
           <span className="text-sm">
-            전체 선택({selectedCount}/{cartItems.length})
+            {t("cart.selectall")}({selectedCount}/{cartItems.length})
           </span>
         </div>
-        <button className="text-sm text-gray-500">선택삭제</button>
+        <button className="text-sm text-gray-500">{t("cart.select")}</button>
       </div>
 
       {vendorGroups.map((group) => (
         <div key={group.vendorName} className="mb-8">
-          <h2 className="font-bold mb-4">{group.vendorName} 배송상품</h2>
+          <h2 className="font-bold mb-4">
+            {group.vendorName} {t("cart.delivery.product")}
+          </h2>
           <div className="border rounded-lg">
             {group.items.map((item) => (
               <CartItemComponent

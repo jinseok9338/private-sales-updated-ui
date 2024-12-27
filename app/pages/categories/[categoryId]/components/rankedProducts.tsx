@@ -1,6 +1,7 @@
 "use client";
 
 import { ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { useLoaderData } from "react-router";
 import type { HotDealItem } from "~/@types/hotdeal/hotdeal";
 
@@ -12,12 +13,15 @@ export function HotDealProducts({}: RankedProductsProps) {
   const productsData = useLoaderData();
   const ProductList = productsData.item_list;
   const products: HotDealItem[] = ProductList.map((v: any) => v.item);
+  const { t } = useTranslation();
+  const title = "실시간 롱팬츠 랭킹";
+
   return (
     <div className="py-6">
       <div className="flex justify-between items-center px-4 mb-4">
-        <h2 className="text-lg font-bold">실시간 롱팬츠 랭킹</h2>
+        <h2 className="text-lg font-bold">{title}</h2>
         <a href="#" className="text-blue-500 text-sm flex items-center">
-          전체보기 <ChevronRight className="h-4 w-4" />
+          {t("categories.header.seeAll")} <ChevronRight className="h-4 w-4" />
         </a>
       </div>
       <div className="flex gap-4 overflow-x-auto px-4">
@@ -47,7 +51,9 @@ export function HotDealProducts({}: RankedProductsProps) {
               <div className="text-sm text-gray-600">{product.market_name}</div>
               <div className="text-sm line-clamp-2">{product.name}</div>
               <div className="text-xs text-gray-500">
-                {product.like.goods_sno.toLocaleString()}개 구매중
+                {t("categories.header.purchasing", {
+                  n: product.like.goods_sno.toLocaleString(),
+                })}
               </div>
             </div>
           </div>

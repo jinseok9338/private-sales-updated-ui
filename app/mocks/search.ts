@@ -10,7 +10,7 @@ export const ageGroups: AgeGroup[] = [
 ];
 
 export const searchTrendsData: SearchPageData = {
-  lastUpdated: "12.23 14:00 기준",
+  lastUpdated: "12.26 14:00 기준",
   trends: [
     {
       id: 1,

@@ -4,7 +4,7 @@ import languageGenerate from "./languageGenerate";
 
 export default function languageUpdate(config: II18nConfig): Plugin {
   return {
-    name: "svg-icon-update",
+    name: "language-update",
     enforce: "pre",
     configureServer(server) {
       const listener = (file = "") =>

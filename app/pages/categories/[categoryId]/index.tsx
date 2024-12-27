@@ -1,7 +1,6 @@
 import { useSearchParams } from "react-router";
 import { CategoryTabs, type Tab } from "./components/category-tab";
 import { FilterChips, type Filter } from "./components/filter-chips";
-import AxiosClient from "~/api/axios";
 import { HotDealProducts } from "./components/rankedProducts";
 import { RecommendedProducts } from "./components/recommendedProducts";
 

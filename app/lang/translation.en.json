@@ -1,15 +1,58 @@
 {
+  "cart": {
+    "discount": "discount",
+    "select": "unselect",
+    "selectall": "select all",
+    "button": {
+      "order": "order"
+    },
+    "delivery": {
+      "fee": "delivery fee",
+      "noFee": "free delivery",
+      "product": "delivery products"
+    },
+    "empty": {
+      "addProduct": "Add a new product",
+      "noProduct": "The cart is empty",
+      "seeMore": "see more"
+    },
+    "total": {
+      "estimatedPoints": "estimated points",
+      "total": "total",
+      "totalProductsPrice": "total {{0}} orders price"
+    }
+  },
+  "categories": {
+    "error": {
+      "not-found": " Error loading products"
+    },
+    "header": {
+      "purchasing": "buying {{0}} items",
+      "seeAll": "see all"
+    },
+    "recommend": {
+      "title": "Recommended products"
+    }
+  },
+  "common": {
+    "currency": "KRW {{n}}"
+  },
+  "footer": {
+    "path": {
+      "categories": "all",
+      "home": "home",
+      "me": "me",
+      "search": "search"
+    }
+  },
   "header": {
     "search": {
       "placeholder": "search"
     }
   },
-  "footer": {
-    "path": {
-      "home": "home",
-      "categories": "all",
-      "search": "search",
-      "me": "me"
+  "search": {
+    "header": {
+      "title": "trending search words"
     }
   }
 }
