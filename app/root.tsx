@@ -15,6 +15,7 @@ import ModalManager from "./components/ui/modal/ModalManager";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "./api/react-query";
+import Loading from "./components/loadingScreen/loadingScreen";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -32,7 +33,7 @@ export const links: Route.LinksFunction = () => [
 
 // this is app Skeleton
 export function HydrateFallback() {
-  return <p>Loading Game...</p>;
+  return <Loading />;
 }
 
 export function Layout({ children }: { children: React.ReactNode }) {
