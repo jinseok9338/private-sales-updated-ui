@@ -8,14 +8,8 @@ import {
 } from "react-router";
 import "./lang/i18n";
 
-import type { Route } from "./+types/root";
-import stylesheet from "./app.css?url";
-import { Toaster } from "./components/ui/toaster";
-import ModalManager from "./components/ui/modal/ModalManager";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { queryClient } from "./api/react-query";
-import Loading from "./components/loadingScreen/loadingScreen";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import {
   AlertCircle,
   ChevronDown,
@@ -23,7 +17,12 @@ import {
   RefreshCcw,
   XCircle,
 } from "lucide-react";
-import { Button } from "./components/ui/button";
+import type { Route } from "./+types/root";
+import { queryClient } from "./api/react-query";
+import stylesheet from "./app.css?url";
+import Loading from "./components/loadingScreen/loadingScreen";
+import ModalManager from "./components/ui/modal/ModalManager";
+import { Toaster } from "./components/ui/toaster";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
