@@ -1,3 +1,4 @@
+import CategoriesContextProvider from "~/context/categories/categoriesContextProvider";
 import CategoryIndex from "~/pages/categories";
 
 export async function clientLoader() {
@@ -6,5 +7,9 @@ export async function clientLoader() {
 }
 
 export default function CategoryPage() {
-  return <CategoryIndex />;
+  return (
+    <CategoriesContextProvider>
+      <CategoryIndex />
+    </CategoriesContextProvider>
+  );
 }
