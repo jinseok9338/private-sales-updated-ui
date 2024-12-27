@@ -21,6 +21,9 @@ export default defineConfig({
   server: {
     port: 9300,
   },
+  preview: {
+    port: 8080,
+  },
 
   plugins: [reactRouter(), tsconfigPaths(), languageUpdate(i18nConfig)],
 });
