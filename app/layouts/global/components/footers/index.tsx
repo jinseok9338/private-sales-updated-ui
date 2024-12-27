@@ -1,6 +1,7 @@
 import { Home, Menu, Search, User } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useLocation, Link } from "react-router";
+import FeedbackLink from "~/components/ui/Link";
 
 const Footers = () => {
   const location = useLocation();
@@ -52,7 +53,7 @@ const Footers = () => {
     <footer className="fixed max-w-[600px] w-full bottom-0 bg-white border-t">
       <nav className="flex items-center justify-around h-[60px]">
         {buttons.map((button, index) => (
-          <Link
+          <FeedbackLink
             to={button.to}
             key={index}
             className="flex flex-col items-center justify-center gap-1"
@@ -63,7 +64,7 @@ const Footers = () => {
             >
               {button.label}
             </span>
-          </Link>
+          </FeedbackLink>
         ))}
       </nav>
     </footer>

@@ -1,13 +1,14 @@
 import { ShoppingBag } from "lucide-react";
 import { Link } from "react-router";
+import FeedbackLink from "~/components/ui/Link";
 
 const ShoppingButton = () => {
   return (
-    <Link to="/cart">
+    <FeedbackLink to="/cart">
       <button className="p-2">
         <ShoppingBag size={24} />
       </button>
-    </Link>
+    </FeedbackLink>
   );
 };
 
