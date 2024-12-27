@@ -1,6 +1,10 @@
-"use client";
+import SearchContextProvider from "~/context/search/searchContextProvider";
 import SearchIndex from "~/pages/search";
 
 export default function SearchPage() {
-  return <SearchIndex />;
+  return (
+    <SearchContextProvider>
+      <SearchIndex />
+    </SearchContextProvider>
+  );
 }

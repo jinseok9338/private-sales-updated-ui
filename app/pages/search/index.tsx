@@ -2,11 +2,12 @@ import { ChevronUp } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import type { AgeGroup } from "~/@types/search/search";
-import { searchTrendsData, ageGroups } from "~/mocks/search";
+import { useSearchContext } from "~/context/search/searchContext";
 
 const SearchIndex = () => {
-  const [selectedAge, setSelectedAge] = useState<AgeGroup>("전체");
   const { t } = useTranslation();
+  const { searchTrendsData, ageGroups, selectedAge, handleSelectAge } =
+    useSearchContext();
   const filteredTrends = searchTrendsData.trends.filter((trend) =>
     trend.ageGroups.includes(selectedAge)
   );
@@ -26,7 +27,7 @@ const SearchIndex = () => {
           {ageGroups.map((age) => (
             <button
               key={age}
-              onClick={() => setSelectedAge(age)}
+              onClick={() => handleSelectAge(age)}
               className={`whitespace-nowrap px-4 py-2 rounded-full text-sm ${
                 selectedAge === age
                   ? "bg-gray-700 text-white"
