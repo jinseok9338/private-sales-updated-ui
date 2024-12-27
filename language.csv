@@ -1,4 +1,6 @@
 ﻿category,key,ko,en
-common/button,search,검삭,sear3ch
-common/button,search2,검삭2,search2
-common/error,not-found,404,404
+header/search,placeholder,검색,search
+footer/path,home,홈,home
+footer/path,categories,전체보기,all
+footer/path,search,검색,search
+footer/path,me,마이페이지,me

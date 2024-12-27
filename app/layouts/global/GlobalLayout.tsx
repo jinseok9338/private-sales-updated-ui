@@ -9,14 +9,9 @@ import type { LoaderReturnType } from "~/@types/LoaderReturnType";
 
 const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <QueryClientProvider client={queryClient}>
-      <UILayout>
-        <Outlet />
-      </UILayout>
-      <Toaster />
-      <ModalManager />
-      <ReactQueryDevtools initialIsOpen={false} />
-    </QueryClientProvider>
+    <UILayout>
+      <Outlet />
+    </UILayout>
   );
 };
 

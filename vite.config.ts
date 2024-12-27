@@ -18,6 +18,9 @@ export default defineConfig({
       plugins: [tailwindcss, autoprefixer],
     },
   },
+  server: {
+    port: 9300,
+  },
 
   plugins: [reactRouter(), tsconfigPaths(), languageUpdate(i18nConfig)],
 });

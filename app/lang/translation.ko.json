@@ -1,11 +1,15 @@
 {
-  "common": {
-    "button": {
-      "search": "검삭",
-      "search2": "검삭2"
-    },
-    "error": {
-      "not-found": "404"
+  "header": {
+    "search": {
+      "placeholder": "검색"
+    }
+  },
+  "footer": {
+    "path": {
+      "home": "홈",
+      "categories": "전체보기",
+      "search": "검색",
+      "me": "마이페이지"
     }
   }
 }

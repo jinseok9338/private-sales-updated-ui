@@ -1,11 +1,15 @@
 {
-  "common": {
-    "button": {
-      "search": "sear3ch",
-      "search2": "search2"
-    },
-    "error": {
-      "not-found": "404"
+  "header": {
+    "search": {
+      "placeholder": "search"
+    }
+  },
+  "footer": {
+    "path": {
+      "home": "home",
+      "categories": "all",
+      "search": "search",
+      "me": "me"
     }
   }
 }

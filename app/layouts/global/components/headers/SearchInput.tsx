@@ -1,7 +1,11 @@
 import { Search } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 
 const SearchInput = () => {
+  const { t } = useTranslation();
+  const placeholder = t("header.search.placeholder");
+
   return (
     <div className="flex-1 relative">
       <Link to="/search">
@@ -12,7 +16,7 @@ const SearchInput = () => {
       <Link to="/search">
         <input
           type="text"
-          placeholder="하나만 사도 무료배송"
+          placeholder={placeholder}
           className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-white"
         />
       </Link>

@@ -1,9 +1,11 @@
 import { Home, Menu, Search, User } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { useLocation, Link } from "react-router";
 
 const Footers = () => {
   const location = useLocation();
   const pathname = location.pathname;
+  const { t } = useTranslation();
 
   const buttons = [
     {
@@ -11,7 +13,7 @@ const Footers = () => {
       icon: (
         <Home size={24} className={pathname === "/" ? "text-red-500" : ""} />
       ),
-      label: "홈",
+      label: t("footer.path.home"),
       isActive: pathname === "/",
     },
     {
@@ -22,7 +24,7 @@ const Footers = () => {
           className={pathname === "/categories" ? "text-red-500" : ""}
         />
       ),
-      label: "전체보기",
+      label: t("footer.path.categories"), // 전체보기
       isActive: pathname === "/categories",
     },
     {
@@ -33,7 +35,7 @@ const Footers = () => {
           className={pathname === "/search" ? "text-red-500" : ""}
         />
       ),
-      label: "검색",
+      label: t("footer.path.search"),
       isActive: pathname === "/search",
     },
     {
@@ -41,7 +43,7 @@ const Footers = () => {
       icon: (
         <User size={24} className={pathname === "/me" ? "text-red-500" : ""} />
       ),
-      label: "마이페이지",
+      label: t("footer.path.me"), //마이페이지
       isActive: pathname === "/me",
     },
   ];

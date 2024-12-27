@@ -27,4 +27,6 @@ i18n
     returnNull: true,
   });
 
+export const currentLanguage = () => i18n.language.split("-")[0];
+
 export default i18n;
