@@ -94,57 +94,144 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   }
 
   return (
-    <main className="min-h-[80vh] flex items-center justify-center p-4">
-      <div className="max-w-2xl w-full space-y-8">
-        <div className="text-center space-y-6">
+    <main
+      style={{
+        minHeight: "80vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "1rem",
+      }}
+    >
+      <div style={{ maxWidth: "42rem", width: "100%", gap: "2rem" }}>
+        <div style={{ textAlign: "center", gap: "1.5rem" }}>
           {/* Icon and Message */}
-          <div className="flex flex-col items-center gap-4">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "1rem",
+            }}
+          >
             {icon}
-            <h1 className="text-4xl font-bold tracking-tight">{message}</h1>
+            <h1
+              style={{
+                fontSize: "2.25rem",
+                fontWeight: "bold",
+                lineHeight: "1.25",
+              }}
+            >
+              {message}
+            </h1>
           </div>
 
           {/* Error Details */}
-          <p className="text-muted-foreground text-lg">{details}</p>
+          <p
+            style={{
+              color: "#6b7280", // Tailwind muted-foreground color
+              fontSize: "1.125rem",
+            }}
+          >
+            {details}
+          </p>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "1rem",
+              justifyContent: "center",
+              paddingTop: "1rem",
+            }}
+          >
+            <button
               onClick={() => window.location.reload()}
-              variant="outline"
-              className="gap-2"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0.5rem",
+                padding: "0.5rem 1rem",
+                border: "1px solid #d1d5db",
+                borderRadius: "0.375rem",
+                color: "#1f2937",
+                background: "none",
+                cursor: "pointer",
+              }}
             >
-              <RefreshCcw className="h-4 w-4" />
+              <RefreshCcw style={{ height: "1rem", width: "1rem" }} />
               Try Again
-            </Button>
-            <Button
+            </button>
+            <button
               onClick={() => (window.location.href = "/")}
-              className="gap-2"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0.5rem",
+                padding: "0.5rem 1rem",
+                border: "none",
+                borderRadius: "0.375rem",
+                color: "#ffffff",
+                backgroundColor: "#2563eb", // Tailwind blue-600 equivalent
+                cursor: "pointer",
+              }}
             >
-              <Home className="h-4 w-4" />
+              <Home style={{ height: "1rem", width: "1rem" }} />
               Return Home
-            </Button>
+            </button>
           </div>
         </div>
 
         {/* Stack Trace (Development Only) */}
         {stack && (
-          <div className="rounded-lg border bg-muted/40">
-            <button className="w-full px-4 py-2 flex items-center justify-between text-sm hover:bg-muted/60 transition-colors">
-              <span className="font-mono">Stack Trace</span>
+          <div
+            style={{
+              borderRadius: "0.375rem",
+              border: "1px solid #e5e7eb",
+              backgroundColor: "rgba(107, 114, 128, 0.1)", // Tailwind muted/40 equivalent
+            }}
+          >
+            <button
+              style={{
+                width: "100%",
+                padding: "0.5rem 1rem",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                fontSize: "0.875rem",
+                color: "#374151",
+                cursor: "pointer",
+                background: "none",
+              }}
+            >
+              <span style={{ fontFamily: "monospace" }}>Stack Trace</span>
               <ChevronDown />
             </button>
-            (
-            <div className="p-4 border-t">
-              <pre className="overflow-x-auto text-sm">
-                <code className="text-destructive">{stack}</code>
+            <div style={{ padding: "1rem", borderTop: "1px solid #e5e7eb" }}>
+              <pre
+                style={{
+                  overflowX: "auto",
+                  fontSize: "0.875rem",
+                  color: "#ff4d4f",
+                }}
+              >
+                <code>{stack}</code>
               </pre>
             </div>
-            )
           </div>
         )}
 
         {/* Support Information */}
-        <div className="text-center text-sm text-muted-foreground">
+        <div
+          style={{
+            textAlign: "center",
+            fontSize: "0.875rem",
+            color: "#6b7280",
+          }}
+        >
           <p>If this problem persists, please contact our support team.</p>
           <p>Error ID: {crypto.randomUUID().split("-")[0]}</p>
         </div>
