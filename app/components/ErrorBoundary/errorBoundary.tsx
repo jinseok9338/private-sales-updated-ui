@@ -1,79 +1,26 @@
-import {
-  isRouteErrorResponse,
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "react-router";
-import "./lang/i18n";
+"use client";
 
-import type { Route } from "./+types/root";
-import stylesheet from "./app.css?url";
-import { Toaster } from "./components/ui/toaster";
-import ModalManager from "./components/ui/modal/ModalManager";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-import { QueryClientProvider } from "@tanstack/react-query";
-import { queryClient } from "./api/react-query";
-import Loading from "./components/loadingScreen/loadingScreen";
 import {
-  AlertCircle,
-  ChevronDown,
-  Home,
-  RefreshCcw,
   XCircle,
+  AlertCircle,
+  RefreshCcw,
+  Home,
+  ChevronDown,
 } from "lucide-react";
-import { Button } from "./components/ui/button";
+import { useState } from "react";
+import { Button } from "../ui/button";
+import { isRouteErrorResponse } from "react-router";
 
-export const links: Route.LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-  },
-  { rel: "stylesheet", href: stylesheet },
-];
-
-// this is app Skeleton
-export function HydrateFallback() {
-  return <Loading />;
+interface ErrorBoundaryProps {
+  error: Error & {
+    status?: number;
+    statusText?: string;
+  };
 }
 
-export function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <Meta />
-        <Links />
-      </head>
-      <body>
-        {children}
-        <ScrollRestoration />
-        <Scripts />
-      </body>
-    </html>
-  );
-}
+export function ErrorBoundary({ error }: ErrorBoundaryProps) {
+  const [showStack, setShowStack] = useState(false);
 
-export default function App() {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <Outlet />
-      <Toaster />
-      <ModalManager />
-      <ReactQueryDevtools initialIsOpen={false} />
-    </QueryClientProvider>
-  );
-}
-
-export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let icon = <AlertCircle className="h-12 w-12 text-destructive" />;
   let message = "Oops!";
   let details = "An unexpected error occurred.";
@@ -129,17 +76,24 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
         {/* Stack Trace (Development Only) */}
         {stack && (
           <div className="rounded-lg border bg-muted/40">
-            <button className="w-full px-4 py-2 flex items-center justify-between text-sm hover:bg-muted/60 transition-colors">
+            <button
+              onClick={() => setShowStack(!showStack)}
+              className="w-full px-4 py-2 flex items-center justify-between text-sm hover:bg-muted/60 transition-colors"
+            >
               <span className="font-mono">Stack Trace</span>
-              <ChevronDown />
+              <ChevronDown
+                className={`h-4 w-4 transition-transform ${
+                  showStack ? "rotate-180" : ""
+                }`}
+              />
             </button>
-            (
-            <div className="p-4 border-t">
-              <pre className="overflow-x-auto text-sm">
-                <code className="text-destructive">{stack}</code>
-              </pre>
-            </div>
-            )
+            {showStack && (
+              <div className="p-4 border-t">
+                <pre className="overflow-x-auto text-sm">
+                  <code className="text-destructive">{stack}</code>
+                </pre>
+              </div>
+            )}
           </div>
         )}
 
