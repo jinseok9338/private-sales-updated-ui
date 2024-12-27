@@ -1,6 +1,6 @@
 import { Home, Menu, Search, User } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { useLocation, Link } from "react-router";
+import { useLocation } from "react-router";
 import FeedbackLink from "~/components/ui/Link";
 
 const Footers = () => {

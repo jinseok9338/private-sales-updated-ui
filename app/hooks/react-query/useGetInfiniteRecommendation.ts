@@ -2,7 +2,6 @@ import { useInfiniteQuery } from "@tanstack/react-query";
 import type {
   Recommendation,
   RecommendationItem,
-  RecommendationItemList,
 } from "~/@types/recommendation/recommendation";
 import AxiosClient from "~/api/axios";
 

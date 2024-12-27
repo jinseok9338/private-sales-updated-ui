@@ -1,5 +1,4 @@
 import { ChevronUp } from "lucide-react";
-import { Link } from "react-router";
 import FeedbackLink from "~/components/ui/Link";
 import { useSearchContext } from "~/context/search/searchContext";
 

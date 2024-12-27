@@ -1,6 +1,5 @@
 import { Search } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router";
 import FeedbackLink from "~/components/ui/Link";
 
 const SearchInput = () => {

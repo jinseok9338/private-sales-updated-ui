@@ -1,15 +1,9 @@
-"use client";
-
 import { ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useLoaderData } from "react-router";
 import type { HotDealItem } from "~/@types/hotdeal/hotdeal";
 
-interface RankedProductsProps {
-  //   products: HotDealItem[];
-}
-
-export function HotDealProducts({}: RankedProductsProps) {
+export function HotDealProducts() {
   const productsData = useLoaderData();
   const ProductList = productsData.item_list;
   const products: HotDealItem[] = ProductList.map((v: any) => v.item);

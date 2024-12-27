@@ -1,9 +1,5 @@
 import React from "react";
-import type {
-  AgeGroup,
-  SearchPageData,
-  TrendingItem,
-} from "~/@types/search/search";
+import type { AgeGroup, SearchPageData } from "~/@types/search/search";
 
 export type ISearchContext = {
   selectedAge: AgeGroup;
