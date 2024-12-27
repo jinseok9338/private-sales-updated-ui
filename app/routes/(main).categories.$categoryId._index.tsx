@@ -1,4 +1,5 @@
 import AxiosClient from "~/api/axios";
+import { CategoryDetailContextProvider } from "~/context/categories/[categoryId]/categoryDetailContextProvider";
 import CategoryDetailPage from "~/pages/categories/[categoryId]";
 
 export async function clientLoader() {
@@ -8,7 +9,11 @@ export async function clientLoader() {
 }
 
 const SubCategoryPage = () => {
-  return <CategoryDetailPage />;
+  return (
+    <CategoryDetailContextProvider>
+      <CategoryDetailPage />
+    </CategoryDetailContextProvider>
+  );
 };
 
 export default SubCategoryPage;

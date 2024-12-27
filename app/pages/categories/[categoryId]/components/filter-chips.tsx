@@ -1,19 +1,8 @@
-"use client";
-
 import { ChevronDown } from "lucide-react";
+import { useCategoryDetailContext } from "~/context/categories/[categoryId]/categoryDetailContext";
 
-export interface Filter {
-  id: string;
-  name: string;
-  options?: string[];
-  hasDropdown: boolean;
-}
-
-interface FilterChipsProps {
-  filters: Filter[];
-}
-
-export function FilterChips({ filters }: FilterChipsProps) {
+export function FilterChips() {
+  const { filters } = useCategoryDetailContext();
   return (
     <div className="flex gap-2 overflow-x-auto py-4 px-4">
       {filters.map((filter) => (

@@ -17,6 +17,18 @@ export interface SubCategory {
   };
 }
 
+export interface Filter {
+  id: string;
+  name: string;
+  options?: string[];
+  hasDropdown: boolean;
+}
+
+export interface Tab {
+  id: string;
+  name: string;
+}
+
 export interface Category {
   item: {
     sno: number;

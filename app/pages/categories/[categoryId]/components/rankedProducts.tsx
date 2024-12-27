@@ -1,12 +1,9 @@
 import { ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { useLoaderData } from "react-router";
-import type { HotDealItem } from "~/@types/hotdeal/hotdeal";
+import { useCategoryDetailContext } from "~/context/categories/[categoryId]/categoryDetailContext";
 
 export function HotDealProducts() {
-  const productsData = useLoaderData();
-  const ProductList = productsData.item_list;
-  const products: HotDealItem[] = ProductList.map((v: any) => v.item);
+  const { products } = useCategoryDetailContext();
   const { t } = useTranslation();
   const title = "실시간 롱팬츠 랭킹";
 

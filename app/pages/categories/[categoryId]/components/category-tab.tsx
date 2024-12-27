@@ -1,26 +1,14 @@
-export interface Tab {
-  id: string;
-  name: string;
-}
+import { useCategoryDetailContext } from "~/context/categories/[categoryId]/categoryDetailContext";
 
-interface CategoryTabsProps {
-  tabs: Tab[];
-  activeTab: string;
-  onTabChange: (tabId: string) => void;
-}
-
-export function CategoryTabs({
-  tabs,
-  activeTab,
-  onTabChange,
-}: CategoryTabsProps) {
+export function CategoryTabs() {
+  const { tabs, activeTab, setActiveTab } = useCategoryDetailContext();
   return (
     <div className="border-b">
       <nav className="flex">
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            onClick={() => onTabChange(tab.id)}
+            onClick={() => setActiveTab(tab.id)}
             className={`px-6 py-3 text-sm font-medium border-b-2 ${
               activeTab === tab.id
                 ? "border-black text-black"
