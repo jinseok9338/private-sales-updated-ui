@@ -9,26 +9,23 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
+import { useCartContext } from "~/context/cart/cartContext";
 
 interface CartItemProps {
   item: CartItem;
-  onSelect: (id: number, selected: boolean) => void;
-  onQuantityChange: (id: number, quantity: number) => void;
-  onRemove: (id: number) => void;
 }
 
-export function CartItemComponent({
-  item,
-  onSelect,
-  onQuantityChange,
-  onRemove,
-}: CartItemProps) {
+export function CartItemComponent({ item }: CartItemProps) {
+  const { handleSelectItem, handleQuantityChange, handleRemoveItem } =
+    useCartContext();
   return (
     <div className="py-4 border-b last:border-b-0">
       <div className="flex gap-4">
         <Checkbox
           checked={item.isSelected}
-          onCheckedChange={(checked) => onSelect(item.id, checked as boolean)}
+          onCheckedChange={(checked) =>
+            handleSelectItem(item.id, checked as boolean)
+          }
         />
         <div className="flex-1">
           <div className="flex gap-4">
@@ -42,7 +39,7 @@ export function CartItemComponent({
             <div className="flex-1">
               <div className="flex justify-between">
                 <span className="text-sm text-gray-600">{item.vendorName}</span>
-                <button onClick={() => onRemove(item.id)}>
+                <button onClick={() => handleRemoveItem(item.id)}>
                   <X className="h-5 w-5 text-gray-400" />
                 </button>
               </div>
@@ -74,7 +71,7 @@ export function CartItemComponent({
             <Select
               value={item.quantity.toString()}
               onValueChange={(value) =>
-                onQuantityChange(item.id, parseInt(value))
+                handleQuantityChange(item.id, parseInt(value))
               }
             >
               <SelectTrigger className="w-24">
