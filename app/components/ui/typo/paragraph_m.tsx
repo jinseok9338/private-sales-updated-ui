@@ -1,9 +1,9 @@
-import { ReactNode } from 'react'
+import type { ReactNode } from "react";
 
 interface ParagraphMProps {
-  children: ReactNode
-  className?: string
+  children: ReactNode;
+  className?: string;
 }
 export default function ParagraphM({ children, className }: ParagraphMProps) {
-  return <p className={`${className} text-paragraph-m`}>{children}</p>
+  return <p className={`${className} text-paragraph-m`}>{children}</p>;
 }
