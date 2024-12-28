@@ -59,15 +59,17 @@
     "description": {
       "confirmPassword": "Please enter the new password again.",
       "newPassword": "Password must include at least one letter, number, and special character.",
-      "oldPassword": "Please enter your current password."
+      "oldPassword": "Please enter your current password.",
+      "findPassword": "Please enter the email address you used to reset your password. We will send you a new password through email."
     },
     "message": {
-      "emailFormatIncorrect": "Email or password doesn't match.",
+      "emailFormatIncorrect": "Email format is incorrect.",
       "minimumPasswordRequirement": "Password must be at least 8 characters.",
       "passwordConditions": "Password must include at least one letter, number, and special character.",
-      "passwordConditionsError": "Password conditions are not met. Please check again.",
+      "passwordConditionsError": "Password must include at least one letter, number, and special character.",
       "required": "This field is required.",
-      "wrongPassword": "Password does not match."
+      "wrongPassword": "Password does not match.",
+      "enterEmail": "Please enter your email."
     },
     "placeholder": {
       "confirmPassword": "Enter password",

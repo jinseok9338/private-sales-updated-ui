@@ -22,7 +22,7 @@ const PasswordChangePage = () => {
   const { t } = useTranslation();
 
   const PASSWORD_ERROR_MESSAGE = "form.message.passwordConditionsError"; //비밀번호 설정 규칙에 어긋납니다. 다시 확인해주세요.
-  const REQUIRE_MESSAGE = "form.message.required"; //필수 항목 입니다.
+  const REQUIRE_MESSAGE = "form.message.required";
 
   const formSchema = z
     .object({
@@ -43,12 +43,17 @@ const PasswordChangePage = () => {
         .regex(passwordPattern, { message: PASSWORD_ERROR_MESSAGE }),
     })
     .refine((data) => data.newPassword === data.confirmPassword, {
-      message: t("form.message.wrongPassword"), //비밀번호가 일치하지 않습니다.
-      path: ["confirmPassword"], // 에러 메시지를 confirmPassword 필드에 추가
+      message: t("form.message.wrongPassword"),
+      path: ["confirmPassword"],
     });
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
+    defaultValues: {
+      oldPassword: "",
+      newPassword: "",
+      confirmPassword: "",
+    },
   });
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {};

@@ -59,15 +59,17 @@
     "description": {
       "confirmPassword": "변경하실 비밀번호를 한번 더 입력해주세요.",
       "newPassword": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.",
-      "oldPassword": "현제 비밀번호를 입력해주세요."
+      "oldPassword": "현제 비밀번호를 입력해주세요.",
+      "findPassword": "비밀번호 초기화를 위해 이용중인 이메일을 입력해주세요. 이용하고 계신 이메일을 통해 새로운 비밀번호를 전송합니다."
     },
     "message": {
-      "emailFormatIncorrect": "이메일 또는 비밀번호가 일치하지 않습니다.",
+      "emailFormatIncorrect": "이메일 포맷이 아닙니다.",
       "minimumPasswordRequirement": "비밀번호는 최소 8자 이상이어야 합니다.",
       "passwordConditions": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.",
-      "passwordConditionsError": "비밀번호 설정 규칙에 어긋납니다. 다시 확인해주세요.",
+      "passwordConditionsError": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.",
       "required": "필수 항목 입니다.",
-      "wrongPassword": "비밀번호가 일치하지 않습니다."
+      "wrongPassword": "비밀번호가 일치하지 않습니다.",
+      "enterEmail": "이메일 입력"
     },
     "placeholder": {
       "confirmPassword": "비밀번호를 입력해주세요.",

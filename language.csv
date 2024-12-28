@@ -33,7 +33,7 @@ form/description,oldPassword,현제 비밀번호를 입력해주세요.,Please e
 form/message,emailFormatIncorrect,이메일 또는 비밀번호가 일치하지 않습니다.,Email or password doesn't match.
 form/message,minimumPasswordRequirement,비밀번호는 최소 8자 이상이어야 합니다.,Password must be at least 8 characters.
 form/message,passwordConditions,"비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.","Password must include at least one letter, number, and special character."
-form/message,passwordConditionsError,비밀번호 설정 규칙에 어긋납니다. 다시 확인해주세요.,Password conditions are not met. Please check again.
+form/message,passwordConditionsError,"비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.","Password must include at least one letter, number, and special character."
 form/message,required,필수 항목 입니다.,This field is required.
 form/message,wrongPassword,비밀번호가 일치하지 않습니다.,Password does not match.
 form/placeholder,confirmPassword,비밀번호를 입력해주세요.,Enter password
@@ -46,3 +46,6 @@ form/title,newPassword,새로운 비밀번호,New password
 form/title,oldPassword,현재 사용중인 비밀번호,Current password
 header/search,placeholder,검색,search
 search/header,title,인기 검색어,trending search words
+form/description,findPassword,비밀번호 초기화를 위해 이용중인 이메일을 입력해주세요. 이용하고 계신 이메일을 통해 새로운 비밀번호를 전송합니다.,Please enter the email address you used to reset your password. We will send you a new password through email.
+form/message,enterEmail,이메일 입력,Please enter your email.
+form/message,emailFormatIncorrect,이메일 포맷이 아닙니다.,Email format is incorrect.

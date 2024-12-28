@@ -1,7 +1,7 @@
-import PasswordChangePage from "~/pages/auth/change-password";
+import FindPasswordPage from "~/pages/auth/find-password";
 
 const FindPasswordIndexPage = () => {
-  return <PasswordChangePage />;
+  return <FindPasswordPage />;
 };
 
 export default FindPasswordIndexPage;
