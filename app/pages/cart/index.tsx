@@ -17,7 +17,7 @@ export default function CartPage() {
       <CartHeader />
 
       {vendorGroups.map((group) => (
-        <CartCard group={group} />
+        <CartCard key={group.items[0].id} group={group} />
       ))}
 
       <CartSummary totals={totals} />

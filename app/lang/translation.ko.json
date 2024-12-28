@@ -4,7 +4,7 @@
     "select": "선택삭제",
     "selectall": "전체 선택",
     "button": {
-      "order": "추가"
+      "order": "주문하기"
     },
     "delivery": {
       "fee": "배송비",

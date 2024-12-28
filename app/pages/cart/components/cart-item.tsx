@@ -1,6 +1,5 @@
 import { X } from "lucide-react";
 import type { CartItem } from "~/@types/cart/cart";
-
 import { Checkbox } from "~/components/ui/checkbox";
 import {
   Select,
@@ -19,7 +18,7 @@ export function CartItemComponent({ item }: CartItemProps) {
   const { handleSelectItem, handleQuantityChange, handleRemoveItem } =
     useCartContext();
   return (
-    <div className="py-4 border-b last:border-b-0">
+    <div className="py-4 px-4 border-b last:border-b-0">
       <div className="flex gap-4">
         <Checkbox
           checked={item.isSelected}
