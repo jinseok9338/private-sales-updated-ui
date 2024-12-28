@@ -93,5 +93,25 @@
     "header": {
       "title": "trending search words"
     }
+  },
+  "delivery": {
+    "info": {
+      "name": "Name",
+      "deliveryPlaceInfo": "Delivery place information",
+      "postalCode": "Postal code",
+      "phoneNumber": "Phone number",
+      "address": "Address"
+    }
+  },
+  "order": {
+    "item": {
+      "orderPlaceDate": "Order date [order number]",
+      "productCode": "Product code",
+      "size": "Size",
+      "quantity": "Quantity",
+      "originalPrice": "Original price",
+      "discountAmount": "Discount amount",
+      "finalPrice": "Final price"
+    }
   }
 }

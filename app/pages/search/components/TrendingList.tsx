@@ -1,5 +1,6 @@
 import { ChevronUp } from "lucide-react";
 import FeedbackLink from "~/components/ui/Link";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 import { useSearchContext } from "~/context/search/searchContext";
 
 const TrendingList = () => {
@@ -16,8 +17,10 @@ const TrendingList = () => {
             className="flex items-center justify-between px-4 py-4 border-b last:border-b-0"
           >
             <div className="flex items-center gap-4">
-              <span className="text-lg font-medium w-6">{item.id}</span>
-              <span>{item.term}</span>
+              <ParagraphS className="text-lg font-medium w-6">
+                {item.id}
+              </ParagraphS>
+              <ParagraphS>{item.term}</ParagraphS>
             </div>
 
             <ChevronUp className="w-4 h-4 text-red-500" />

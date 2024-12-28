@@ -49,3 +49,15 @@ form/title,newPassword,새로운 비밀번호,New password
 form/title,oldPassword,현재 사용중인 비밀번호,Current password
 header/search,placeholder,검색,search
 search/header,title,인기 검색어,trending search words
+delivery/info,name,이름,Name
+delivery/info,deliveryPlaceInfo,배송지 정보,Delivery place information
+delivery/info,postalCode,우편번호,Postal code
+delivery/info,phoneNumber,연락처,Phone number
+delivery/info,address,주소,Address
+order/item,orderPlaceDate,주문일자[주문번호],Order date [order number]
+order/item,productCode,상품코드,Product code
+order/item,size,사이즈,Size
+order/item,quantity,수량,Quantity
+order/item,originalPrice,구매가,Original price
+order/item,discountAmount,할인금액,Discount amount
+order/item,finalPrice,최종 구매가,Final price

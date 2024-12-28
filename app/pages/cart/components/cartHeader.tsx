@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Checkbox } from "~/components/ui/checkbox";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 import { useCartContext } from "~/context/cart/cartContext";
 
 const CartHeader = () => {
@@ -12,9 +13,9 @@ const CartHeader = () => {
           checked={selectedCount === cartItems.length}
           onCheckedChange={(checked) => handleSelectAll(checked as boolean)}
         />
-        <span className="text-sm">
+        <ParagraphS className="text-sm">
           {t("cart.selectall")}({selectedCount}/{cartItems.length})
-        </span>
+        </ParagraphS>
       </div>
       <button className="text-sm text-gray-500">{t("cart.select")}</button>
     </div>

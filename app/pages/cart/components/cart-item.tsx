@@ -8,6 +8,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
+import LabelS from "~/components/ui/typo/label_s";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 import { useCartContext } from "~/context/cart/cartContext";
 
 interface CartItemProps {
@@ -37,22 +39,24 @@ export function CartItemComponent({ item }: CartItemProps) {
             />
             <div className="flex-1">
               <div className="flex justify-between">
-                <span className="text-sm text-gray-600">{item.vendorName}</span>
+                <ParagraphS className="text-sm text-gray-600">
+                  {item.vendorName}
+                </ParagraphS>
                 <button onClick={() => handleRemoveItem(item.id)}>
                   <X className="h-5 w-5 text-gray-400" />
                 </button>
               </div>
-              <h3 className="font-medium mt-1 line-clamp-2">
+              <LabelS className="font-medium mt-1 line-clamp-2">
                 {item.productName}
-              </h3>
+              </LabelS>
               <div className="mt-2">
-                <span className="text-lg font-bold">
+                <ParagraphS className="text-lg font-bold">
                   {item.discountedPrice.toLocaleString()}원
-                </span>
+                </ParagraphS>
                 {item.originalPrice > item.discountedPrice && (
-                  <span className="text-sm text-gray-400 line-through ml-2">
+                  <ParagraphS className="text-sm text-gray-400 line-through ml-2">
                     {item.originalPrice.toLocaleString()}원
-                  </span>
+                  </ParagraphS>
                 )}
               </div>
             </div>

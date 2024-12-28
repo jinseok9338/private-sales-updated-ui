@@ -93,5 +93,25 @@
     "header": {
       "title": "인기 검색어"
     }
+  },
+  "delivery": {
+    "info": {
+      "name": "이름",
+      "deliveryPlaceInfo": "배송지 정보",
+      "postalCode": "우편번호",
+      "phoneNumber": "연락처",
+      "address": "주소"
+    }
+  },
+  "order": {
+    "item": {
+      "orderPlaceDate": "주문일자[주문번호]",
+      "productCode": "상품코드",
+      "size": "사이즈",
+      "quantity": "수량",
+      "originalPrice": "구매가",
+      "discountAmount": "할인금액",
+      "finalPrice": "최종 구매가"
+    }
   }
 }

@@ -1,5 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import FeedbackLink from "~/components/ui/Link";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 import { useCategoryDetailContext } from "~/context/categories/[categoryId]/categoryDetailContext";
 
 export function HotDealProducts() {
@@ -11,9 +13,12 @@ export function HotDealProducts() {
     <div className="py-6">
       <div className="flex justify-between items-center px-4 mb-4">
         <h2 className="text-lg font-bold">{title}</h2>
-        <a href="#" className="text-blue-500 text-sm flex items-center">
+        <FeedbackLink
+          to="/"
+          className="text-blue-500 text-sm flex items-center"
+        >
           {t("categories.header.seeAll")} <ChevronRight className="h-4 w-4" />
-        </a>
+        </FeedbackLink>
       </div>
       <div className="flex gap-4 overflow-x-auto px-4">
         {products.map((product) => (
@@ -32,12 +37,12 @@ export function HotDealProducts() {
             </div>
             <div className="mt-2">
               <div className="flex items-baseline gap-2">
-                <span className="text-red-500 font-bold">
+                <ParagraphS className="text-red-500 font-bold">
                   {product.discount_rate}%
-                </span>
-                <span className="font-bold text-lg">
+                </ParagraphS>
+                <ParagraphS className="font-bold text-lg">
                   {product.price.toLocaleString()}
-                </span>
+                </ParagraphS>
               </div>
               <div className="text-sm text-gray-600">{product.market_name}</div>
               <div className="text-sm line-clamp-2">{product.name}</div>

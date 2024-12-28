@@ -1,4 +1,5 @@
 import type { Category } from "~/@types/category/category";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 import { useCategoriesContext } from "~/context/categories/categoriesContext";
 
 export function SubcategoryGrid() {
@@ -22,9 +23,9 @@ export function SubcategoryGrid() {
                 className="object-cover"
               />
             </div>
-            <span className="mt-2 text-sm text-center">
+            <ParagraphS className="mt-2 text-sm text-center">
               {subcategory.item.name}
-            </span>
+            </ParagraphS>
           </div>
         ))}
       </div>

@@ -2,6 +2,7 @@ import { Home, Menu, Search, User } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router";
 import FeedbackLink from "~/components/ui/Link";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 
 const Footers = () => {
   const location = useLocation();
@@ -59,11 +60,11 @@ const Footers = () => {
             className="flex flex-col items-center justify-center gap-1"
           >
             {button.icon}
-            <span
+            <ParagraphS
               className={button.isActive ? "text-red-500 text-xs" : "text-xs"}
             >
               {button.label}
-            </span>
+            </ParagraphS>
           </FeedbackLink>
         ))}
       </nav>
