@@ -36,13 +36,13 @@
   },
   "common": {
     "currency": "KRW {{n}}",
-    "label": {
-      "email": "Email",
-      "password": "Password"
-    },
     "button": {
       "findPassword": "Find Password",
       "login": "Login"
+    },
+    "label": {
+      "email": "Email",
+      "password": "Password"
     }
   },
   "footer": {
@@ -53,6 +53,17 @@
       "search": "search"
     }
   },
+  "form": {
+    "message": {
+      "emailFormatIncorrect": "Email or password doesn't match.",
+      "minimumPasswordRequirement": "Password must be at least 8 characters.",
+      "passwordConditions": "Password must include at least one letter, number, and special character."
+    },
+    "placeholder": {
+      "email": "Enter email",
+      "password": "Enter password"
+    }
+  },
   "header": {
     "search": {
       "placeholder": "search"
@@ -61,17 +72,6 @@
   "search": {
     "header": {
       "title": "trending search words"
-    }
-  },
-  "form": {
-    "placeholder": {
-      "email": "Enter email",
-      "password": "Enter password"
-    },
-    "message": {
-      "emailFormatIncorrect": "Email or password doesn't match.",
-      "minimumPasswordRequirement": "Password must be at least 8 characters.",
-      "passwordConditions": "Password must include at least one letter, number, and special character."
     }
   }
 }

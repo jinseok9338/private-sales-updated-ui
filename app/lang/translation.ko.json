@@ -36,13 +36,13 @@
   },
   "common": {
     "currency": "{{n}}원",
-    "label": {
-      "email": "이메일",
-      "password": "비밀번호"
-    },
     "button": {
       "findPassword": "비밀번호 찾기",
       "login": "로그인"
+    },
+    "label": {
+      "email": "이메일",
+      "password": "비밀번호"
     }
   },
   "footer": {
@@ -53,6 +53,17 @@
       "search": "검색"
     }
   },
+  "form": {
+    "message": {
+      "emailFormatIncorrect": "이메일 또는 비밀번호가 일치하지 않습니다.",
+      "minimumPasswordRequirement": "비밀번호는 최소 8자 이상이어야 합니다.",
+      "passwordConditions": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다."
+    },
+    "placeholder": {
+      "email": "이메일 입력",
+      "password": "비밀번호 입력"
+    }
+  },
   "header": {
     "search": {
       "placeholder": "검색"
@@ -61,17 +72,6 @@
   "search": {
     "header": {
       "title": "인기 검색어"
-    }
-  },
-  "form": {
-    "placeholder": {
-      "email": "이메일 입력",
-      "password": "비밀번호 입력"
-    },
-    "message": {
-      "emailFormatIncorrect": "이메일 또는 비밀번호가 일치하지 않습니다.",
-      "minimumPasswordRequirement": "비밀번호는 최소 8자 이상이어야 합니다.",
-      "passwordConditions": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다."
     }
   }
 }
