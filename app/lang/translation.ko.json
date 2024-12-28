@@ -37,9 +37,9 @@
   "common": {
     "currency": "{{n}}원",
     "button": {
+      "cancel": "취소",
       "findPassword": "비밀번호 찾기",
       "login": "로그인",
-      "cancel": "취소",
       "ok": "확인"
     },
     "label": {
@@ -56,6 +56,11 @@
     }
   },
   "form": {
+    "description": {
+      "confirmPassword": "변경하실 비밀번호를 한번 더 입력해주세요.",
+      "newPassword": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.",
+      "oldPassword": "현제 비밀번호를 입력해주세요."
+    },
     "message": {
       "emailFormatIncorrect": "이메일 또는 비밀번호가 일치하지 않습니다.",
       "minimumPasswordRequirement": "비밀번호는 최소 8자 이상이어야 합니다.",
@@ -65,21 +70,16 @@
       "wrongPassword": "비밀번호가 일치하지 않습니다."
     },
     "placeholder": {
-      "email": "이메일 입력",
-      "password": "비밀번호 입력",
       "confirmPassword": "비밀번호를 입력해주세요.",
+      "email": "이메일 입력",
       "newPassword": "비밀번호를 입력해주세요.",
-      "oldPassword": "비밀번호를 입력해주세요."
+      "oldPassword": "비밀번호를 입력해주세요.",
+      "password": "비밀번호 입력"
     },
     "title": {
       "confirmPassword": "비밀번호 확인",
       "newPassword": "새로운 비밀번호",
       "oldPassword": "현재 사용중인 비밀번호"
-    },
-    "description": {
-      "confirmPassword": "변경하실 비밀번호를 한번 더 입력해주세요.",
-      "newPassword": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.",
-      "oldPassword": "현제 비밀번호를 입력해주세요."
     }
   },
   "header": {
