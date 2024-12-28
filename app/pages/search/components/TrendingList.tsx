@@ -10,7 +10,7 @@ const TrendingList = () => {
   return (
     <div className="mt-6 bg-white rounded-lg">
       {filteredTrends.map((item) => (
-        <FeedbackLink to={`/search/result?q=${item.term}`}>
+        <FeedbackLink key={item.id} to={`/search/result?q=${item.term}`}>
           <div
             key={item.id}
             className="flex items-center justify-between px-4 py-4 border-b last:border-b-0"
