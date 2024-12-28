@@ -6,6 +6,10 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import translationEn from "./translation.en.json";
 import translationKo from "./translation.ko.json";
 
+export const I18N_LANG = "i18nextLng";
+export const I18N_LANG_EN = "en"; // en-US
+export const I18N_LANG_KO = "ko"; // ko-KR
+
 const resources = {
   en: {
     translation: translationEn,
