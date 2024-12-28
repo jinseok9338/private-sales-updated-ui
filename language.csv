@@ -32,3 +32,17 @@ form/placeholder,email,이메일 입력,Enter email
 form/placeholder,password,비밀번호 입력,Enter password
 header/search,placeholder,검색,search
 search/header,title,인기 검색어,trending search words
+form/message,passwordConditionsError,비밀번호 설정 규칙에 어긋납니다. 다시 확인해주세요.,Password conditions are not met. Please check again.
+form/message,required,필수 항목 입니다.,This field is required.
+form/message,wrongPassword,비밀번호가 일치하지 않습니다.,Password does not match.
+form/title,confirmPassword,비밀번호 확인,Confirm password
+form/title,newPassword,새로운 비밀번호,New password
+form/title,oldPassword,현재 사용중인 비밀번호,Current password
+form/description,confirmPassword,변경하실 비밀번호를 한번 더 입력해주세요.,Please enter the new password again.
+form/description,newPassword,"비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.","Password must include at least one letter, number, and special character."
+form/description,oldPassword,현제 비밀번호를 입력해주세요.,Please enter your current password.
+form/placeholder,confirmPassword,비밀번호를 입력해주세요.,Enter password
+form/placeholder,newPassword,비밀번호를 입력해주세요.,Enter password
+form/placeholder,oldPassword,비밀번호를 입력해주세요.,Enter password
+common/button,cancel,취소,Cancel
+common/button,ok,확인,OK
