@@ -1,3 +1,4 @@
+import HeadingS from "~/components/ui/typo/heading_s";
 import type { Route } from "../+types/root";
 
 export function meta({}: Route.MetaArgs) {
@@ -8,7 +9,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 const Index = () => {
-  return <h1>Index</h1>;
+  return <HeadingS>Index</HeadingS>;
 };
 
 export default Index;

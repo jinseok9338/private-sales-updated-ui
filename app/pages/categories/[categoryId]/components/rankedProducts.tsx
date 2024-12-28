@@ -1,6 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import FeedbackLink from "~/components/ui/Link";
+import HeadingS from "~/components/ui/typo/heading_s";
 import ParagraphS from "~/components/ui/typo/paragraph_s";
 import { useCategoryDetailContext } from "~/context/categories/[categoryId]/categoryDetailContext";
 
@@ -12,7 +13,7 @@ export function HotDealProducts() {
   return (
     <div className="py-6">
       <div className="flex justify-between items-center px-4 mb-4">
-        <h2 className="text-lg font-bold">{title}</h2>
+        <HeadingS className="text-lg font-bold">{title}</HeadingS>
         <FeedbackLink
           to="/"
           className="text-blue-500 text-sm flex items-center"

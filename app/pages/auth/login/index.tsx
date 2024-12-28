@@ -16,6 +16,7 @@ import PasswordInput from "~/components/ui/passwordInput";
 import { cn, isDev } from "~/lib/utils";
 import LanguageButton from "./components/language-toggle";
 import { formSchema } from "./components/loginSchema";
+import HeadingS from "~/components/ui/typo/heading_s";
 
 const Login = (): React.JSX.Element => {
   const { t } = useTranslation();
@@ -33,7 +34,7 @@ const Login = (): React.JSX.Element => {
   return (
     <div className="flex h-screen  flex-col items-stretch justify-center gap-6 p-4 ">
       <div className="mb-12 flex items-center justify-between">
-        <h1 className="font-bold text-[32px] text-black">LOGIN</h1>
+        <HeadingS className="font-bold text-[32px] text-black">LOGIN</HeadingS>
         <LanguageButton />
       </div>
       <Form {...form}>

@@ -12,6 +12,7 @@ import {
   FormMessage,
 } from "~/components/ui/form";
 import { Input } from "~/components/ui/input";
+import ParagraphXS from "~/components/ui/typo/paragraph_xs";
 
 const formSchema = z.object({
   email: z
@@ -33,9 +34,9 @@ const FindPasswordPage = () => {
   const onSubmit = (values: z.infer<typeof formSchema>) => {};
   return (
     <>
-      <p className="whitespace-pre-line text-[13px] text-text-secondary">
+      <ParagraphXS className="whitespace-pre-line">
         {t("form.description.findPassword")}
-      </p>
+      </ParagraphXS>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

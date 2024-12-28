@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { Loader2 } from "lucide-react";
 import { useInfiniteRecommendations } from "~/hooks/react-query/useGetInfiniteRecommendation";
 import { useTranslation } from "react-i18next";
+import HeadingS from "~/components/ui/typo/heading_s";
 
 export function RecommendedProducts() {
   const { ref, inView } = useInView();
@@ -26,7 +27,9 @@ export function RecommendedProducts() {
   if (isLoading || !data) {
     return (
       <div className="py-6">
-        <h2 className="text-lg font-bold px-4 mb-4">{recommendedTitle}</h2>
+        <HeadingS className="text-lg font-bold px-4 mb-4">
+          {recommendedTitle}
+        </HeadingS>
         <div className="flex justify-center py-8">
           <Loader2 className="h-8 w-8 animate-spin text-gray-400" />
         </div>
@@ -37,7 +40,9 @@ export function RecommendedProducts() {
   if (isError) {
     return (
       <div className="py-6">
-        <h2 className="text-lg font-bold px-4 mb-4">{recommendedTitle}</h2>
+        <HeadingS className="text-lg font-bold px-4 mb-4">
+          {recommendedTitle}
+        </HeadingS>
         <div className="text-center py-8 text-gray-500">
           {t("categories.error.not-found")}
         </div>
@@ -47,7 +52,9 @@ export function RecommendedProducts() {
 
   return (
     <div className="py-6">
-      <h2 className="text-lg font-bold px-4 mb-4">{recommendedTitle}</h2>
+      <HeadingS className="text-lg font-bold px-4 mb-4">
+        {recommendedTitle}
+      </HeadingS>
       <div className="grid grid-cols-2 gap-4 px-4">
         {data.pages.map((page) =>
           page.items.map((product) => (
