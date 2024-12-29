@@ -6,6 +6,7 @@ import i18n, { I18N_LANG_EN, I18N_LANG_KO } from "~/lang/i18n";
 import { cn } from "~/lib/utils";
 import MobileUserPriceLimit from "./components/MobileUserPriceLimit";
 import { useNavigate } from "react-router";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 
 const MeIndexPage = () => {
   const user = {
@@ -42,9 +43,9 @@ const MeIndexPage = () => {
       <div className="flex justify-between">
         <div>
           <div>{user?.name ?? "USER"} 님</div>
-          <span className="text-[11px] text-icon-info">
+          <ParagraphS className="text-[11px] text-icon-info">
             {user?.email ?? "user@email.com"}
-          </span>
+          </ParagraphS>
         </div>
         <Button onClick={handleClickLogout} variant={"ghost"}>
           {t("common.button.logout")} {/*로그아웃*/}

@@ -1,3 +1,5 @@
+import ParagraphS from "~/components/ui/typo/paragraph_s";
+
 interface PriceInfoProps {
   originalPrice: number;
   discountPercent: number;
@@ -15,18 +17,20 @@ export function PriceDetailInfo({
   return (
     <div className="space-y-4">
       <div className="flex items-center gap-2">
-        <span className="text-rose-500 font-bold">{discountPercent}%</span>
-        <span className="text-2xl font-bold">
+        <ParagraphS className="text-rose-500 font-bold">
+          {discountPercent}%
+        </ParagraphS>
+        <ParagraphS className="text-2xl font-bold">
           {discountedPrice.toLocaleString()}원
-        </span>
-        <span className="text-muted-foreground line-through">
+        </ParagraphS>
+        <ParagraphS className="text-muted-foreground line-through">
           {originalPrice.toLocaleString()}원
-        </span>
+        </ParagraphS>
       </div>
 
       <div className="bg-muted/30 p-4 rounded-lg">
         <div className="flex justify-between items-center">
-          <span className="font-medium">회원님</span>
+          <ParagraphS className="font-medium">회원님</ParagraphS>
           <div className="text-right">
             <div className="text-rose-500 font-bold">
               {memberDiscountPercent}% {memberPrice.toLocaleString()}원

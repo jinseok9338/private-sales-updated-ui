@@ -1,4 +1,6 @@
 import { Star } from "lucide-react";
+import LabelM from "~/components/ui/typo/label_m";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 
 interface SellerInfoProps {
   name: string;
@@ -19,8 +21,10 @@ export function SellerInfo({ name, image, tags, views }: SellerInfoProps) {
           className="rounded-full"
         />
         <div>
-          <h2 className="font-medium">{name}</h2>
-          <p className="text-sm text-muted-foreground">{tags.join(" ")}</p>
+          <LabelM className="font-medium">{name}</LabelM>
+          <ParagraphS className="text-sm text-muted-foreground">
+            {tags.join(" ")}
+          </ParagraphS>
         </div>
       </div>
     </div>

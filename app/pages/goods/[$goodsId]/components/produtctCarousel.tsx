@@ -7,6 +7,7 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "~/components/ui/carousel";
+import ParagraphS from "~/components/ui/typo/paragraph_s";
 import useModal from "~/stores/modalStores";
 
 interface ProductCarouselProps {
@@ -32,7 +33,9 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
   if (!images || images.length === 0) {
     return (
       <div className="relative aspect-square w-full max-w-2xl mx-auto bg-muted flex items-center justify-center">
-        <p className="text-muted-foreground">No images available</p>
+        <ParagraphS className="text-muted-foreground">
+          No images available
+        </ParagraphS>
       </div>
     );
   }
