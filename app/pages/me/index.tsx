@@ -95,7 +95,7 @@ const MeIndexPage = () => {
             i18n.language === I18N_LANG_EN && "font-semibold [&>svg]:block"
           )}
         >
-          English
+          {t("common.button.English")} {/* 한국어 */}
           <Check className="hidden" />
         </Button>
       </div>
