@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import type { DeliveryInfo } from "~/@types/order/history";
-import HeadingS from "~/components/ui/typo/heading_s";
 import LabelM from "~/components/ui/typo/label_m";
 import ParagraphS from "~/components/ui/typo/paragraph_s";
 

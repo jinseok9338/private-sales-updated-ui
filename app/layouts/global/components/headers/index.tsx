@@ -1,10 +1,9 @@
-import { Search, ShoppingBag } from "lucide-react";
 import { useLoaderData } from "react-router";
 import type { LoaderReturnType } from "~/@types/LoaderReturnType";
 
-import ShoppingButton from "./ShoppingButton";
 import type { clientLoader } from "~/routes/(main)";
 import SearchInput from "./SearchInput";
+import ShoppingButton from "./ShoppingButton";
 
 const Headers = () => {
   const notification: LoaderReturnType<typeof clientLoader> = useLoaderData();
