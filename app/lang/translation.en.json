@@ -38,14 +38,14 @@
     "currency": "KRW {{n}}",
     "button": {
       "cancel": "Cancel",
+      "English": "English",
       "findPassword": "Find Password",
-      "login": "Login",
-      "ok": "OK",
-      "logout": "Logout",
       "history": "My purchase history",
-      "passwordChange": "Change password",
       "Ko": "Korean",
-      "English": "English"
+      "login": "Login",
+      "logout": "Logout",
+      "ok": "OK",
+      "passwordChange": "Change password"
     },
     "label": {
       "email": "Email",
@@ -99,14 +99,14 @@
     }
   },
   "header": {
-    "search": {
-      "placeholder": "search"
-    },
     "limit": {
       "limit": "Limit",
+      "remaining": "Remaining price",
       "total": "Total price",
-      "used": "Used price ",
-      "remaining": "Remaining price"
+      "used": "Used price "
+    },
+    "search": {
+      "placeholder": "search"
     }
   },
   "order": {

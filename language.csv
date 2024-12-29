@@ -18,9 +18,14 @@ categories/header,seeAll,전체보기,see all
 categories/recommend,title,회원님을 위한 추천 상품,Recommended products
 common,currency,{{n}}원,KRW {{n}}
 common/button,cancel,취소,Cancel
+common/button,English,English,English
 common/button,findPassword,비밀번호 찾기,Find Password
+common/button,history,나의 구매 내역,My purchase history
+common/button,Ko,한국어,Korean
 common/button,login,로그인,Login
+common/button,logout,로그아웃,Logout
 common/button,ok,확인,OK
+common/button,passwordChange,비밀번호 변경,Change password
 common/label,email,이메일,Email
 common/label,password,비밀번호,Password
 delivery/info,address,주소,Address
@@ -52,6 +57,10 @@ form/placeholder,password,비밀번호 입력,Enter password
 form/title,confirmPassword,비밀번호 확인,Confirm password
 form/title,newPassword,새로운 비밀번호,New password
 form/title,oldPassword,현재 사용중인 비밀번호,Current password
+header/limit,limit,제한 사항,Limit
+header/limit,remaining,남은 가격,Remaining price
+header/limit,total,총 가격,Total price
+header/limit,used,사용 가격,Used price 
 header/search,placeholder,검색,search
 order/item,discountAmount,할인금액,Discount amount
 order/item,finalPrice,최종 구매가,Final price
@@ -61,12 +70,3 @@ order/item,productCode,상품코드,Product code
 order/item,quantity,수량,Quantity
 order/item,size,사이즈,Size
 search/header,title,인기 검색어,trending search words
-common/button,logout,로그아웃,Logout
-common/button,history,나의 구매 내역,My purchase history
-common/button,passwordChange,비밀번호 변경,Change password
-common/button,Ko,한국어,Korean
-common/button,English,English,English
-header/limit,limit,제한 사항,Limit
-header/limit,total,총 가격,Total price
-header/limit,used,사용 가격,Used price 
-header/limit,remaining,남은 가격,Remaining price

@@ -38,14 +38,14 @@
     "currency": "{{n}}원",
     "button": {
       "cancel": "취소",
+      "English": "English",
       "findPassword": "비밀번호 찾기",
-      "login": "로그인",
-      "ok": "확인",
-      "logout": "로그아웃",
       "history": "나의 구매 내역",
-      "passwordChange": "비밀번호 변경",
       "Ko": "한국어",
-      "English": "English"
+      "login": "로그인",
+      "logout": "로그아웃",
+      "ok": "확인",
+      "passwordChange": "비밀번호 변경"
     },
     "label": {
       "email": "이메일",
@@ -99,14 +99,14 @@
     }
   },
   "header": {
-    "search": {
-      "placeholder": "검색"
-    },
     "limit": {
       "limit": "제한 사항",
+      "remaining": "남은 가격",
       "total": "총 가격",
-      "used": "사용 가격",
-      "remaining": "남은 가격"
+      "used": "사용 가격"
+    },
+    "search": {
+      "placeholder": "검색"
     }
   },
   "order": {
