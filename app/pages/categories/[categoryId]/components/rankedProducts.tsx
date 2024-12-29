@@ -23,7 +23,11 @@ export function HotDealProducts() {
       </div>
       <div className="flex gap-4 overflow-x-auto px-4">
         {products.map((product) => (
-          <div key={product.sno} className="flex-none w-[280px]">
+          <FeedbackLink
+            to={`/goods/${product.sno}`}
+            key={product.sno}
+            className="flex-none w-[280px]"
+          >
             <div className="relative">
               <img
                 src={product.image}
@@ -53,7 +57,7 @@ export function HotDealProducts() {
                 })}
               </div>
             </div>
-          </div>
+          </FeedbackLink>
         ))}
       </div>
     </div>

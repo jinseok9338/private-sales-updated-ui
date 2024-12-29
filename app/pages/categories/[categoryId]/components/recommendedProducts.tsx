@@ -4,6 +4,7 @@ import { Loader2 } from "lucide-react";
 import { useInfiniteRecommendations } from "~/hooks/react-query/useGetInfiniteRecommendation";
 import { useTranslation } from "react-i18next";
 import HeadingS from "~/components/ui/typo/heading_s";
+import FeedbackLink from "~/components/ui/Link";
 
 export function RecommendedProducts() {
   const { ref, inView } = useInView();
@@ -58,7 +59,11 @@ export function RecommendedProducts() {
       <div className="grid grid-cols-2 gap-4 px-4">
         {data.pages.map((page) =>
           page.items.map((product) => (
-            <div key={product.sno} className="group">
+            <FeedbackLink
+              to={`/goods/${product.sno}`}
+              key={product.sno}
+              className="group"
+            >
               <div className="aspect-[3/4] relative overflow-hidden rounded-lg">
                 <img
                   src={product.image}
@@ -75,7 +80,7 @@ export function RecommendedProducts() {
                 </div>
                 <div className="text-sm line-clamp-2">{product.name}</div>
               </div>
-            </div>
+            </FeedbackLink>
           ))
         )}
       </div>
