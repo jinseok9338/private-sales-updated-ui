@@ -40,7 +40,12 @@
       "cancel": "Cancel",
       "findPassword": "Find Password",
       "login": "Login",
-      "ok": "OK"
+      "ok": "OK",
+      "logout": "Logout",
+      "history": "My purchase history",
+      "passwordChange": "Change password",
+      "Ko": "Korean",
+      "English": "English"
     },
     "label": {
       "email": "Email",
@@ -96,6 +101,12 @@
   "header": {
     "search": {
       "placeholder": "search"
+    },
+    "limit": {
+      "limit": "Limit",
+      "total": "Total price",
+      "used": "Used price ",
+      "remaining": "Remaining price"
     }
   },
   "order": {

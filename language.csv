@@ -61,3 +61,12 @@ order/item,productCode,상품코드,Product code
 order/item,quantity,수량,Quantity
 order/item,size,사이즈,Size
 search/header,title,인기 검색어,trending search words
+common/button,logout,로그아웃,Logout
+common/button,history,나의 구매 내역,My purchase history
+common/button,passwordChange,비밀번호 변경,Change password
+common/button,Ko,한국어,Korean
+common/button,English,English,English
+header/limit,limit,제한 사항,Limit
+header/limit,total,총 가격,Total price
+header/limit,used,사용 가격,Used price 
+header/limit,remaining,남은 가격,Remaining price
