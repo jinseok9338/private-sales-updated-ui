@@ -33,7 +33,7 @@ delivery/info,deliveryPlaceInfo,배송지 정보,Delivery place information
 delivery/info,name,이름,Name
 delivery/info,phoneNumber,연락처,Phone number
 delivery/info,postalCode,우편번호,Postal code
-footer/path,categories,전체보기,all
+footer/path,categories,카테고리,category
 footer/path,home,홈,home
 footer/path,me,마이페이지,me
 footer/path,search,검색,search

@@ -26,7 +26,7 @@ const Footers = () => {
           className={pathname === "/categories" ? "text-red-500" : ""}
         />
       ),
-      label: t("footer.path.categories"), // 전체보기
+      label: t("footer.path.categories"), // 카테고리
       isActive: pathname === "/categories",
     },
     {

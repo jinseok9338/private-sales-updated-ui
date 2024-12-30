@@ -63,7 +63,7 @@
   },
   "footer": {
     "path": {
-      "categories": "all",
+      "categories": "category",
       "home": "home",
       "me": "me",
       "search": "search"

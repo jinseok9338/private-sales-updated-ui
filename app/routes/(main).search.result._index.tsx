@@ -1,7 +1,7 @@
-import HeadingS from "~/components/ui/typo/heading_s";
-import type { Route } from "../+types/root";
-import IndexPage from "~/pages/Index";
+import type { Route } from "./+types/(main).search.result._index";
 import AxiosClient from "~/api/axios";
+
+import SearchResultPage from "~/pages/search/result";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -16,8 +16,8 @@ export async function clientLoader() {
   return result;
 }
 
-const Index = () => {
-  return <IndexPage />;
+const SearchResultPageIndex = () => {
+  return <SearchResultPage />;
 };
 
-export default Index;
+export default SearchResultPageIndex;
