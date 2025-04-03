@@ -1,22 +1,42 @@
-FROM node:20-alpine AS development-dependencies-env
-COPY . /app
-WORKDIR /app
-RUN npm ci
+FROM node:20-alpine AS builder
 
-FROM node:20-alpine AS production-dependencies-env
-COPY ./package.json package-lock.json /app/
-WORKDIR /app
-RUN npm ci --omit=dev
+# Install pnpm
+RUN npm install -g pnpm
 
-FROM node:20-alpine AS build-env
-COPY . /app/
-COPY --from=development-dependencies-env /app/node_modules /app/node_modules
+# Install build dependencies
+RUN apk add --no-cache python3 make g++ libc6-compat
+
+# Set environment variables to handle architecture-specific issues
+ENV HUSKY=0
+ENV HUSKY_SKIP_INSTALL=1
+ENV NODE_ENV=production
+ENV ROLLUP_SKIP_NODEJS=true
+ENV VITE_SKIP_NATIVE=true
+
+# Copy only package files first for better layer caching
 WORKDIR /app
-RUN npm run build
+COPY package.json pnpm-lock.yaml* ./
+
+# Install dependencies with ignore-scripts to avoid husky
+RUN pnpm install --frozen-lockfile --ignore-scripts
+
+# Copy the rest of the app
+COPY . .
+
+# Increase Node memory limit and build the app
+RUN NODE_OPTIONS="--max-old-space-size=4096" pnpm run build
 
 FROM node:20-alpine
-COPY ./package.json package-lock.json /app/
-COPY --from=production-dependencies-env /app/node_modules /app/node_modules
-COPY --from=build-env /app/build /app/build
+
+# Install a simple static file server
+RUN npm install -g serve
+
+# Copy built files from builder stage
 WORKDIR /app
-CMD ["npm", "run", "start"]
+COPY --from=builder /app/build/client ./dist
+
+# Expose the port
+EXPOSE 3000
+
+# Command to serve the built application
+CMD ["serve", "-s", "dist", "-p", "3000"]

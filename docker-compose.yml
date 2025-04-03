@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dior-3-front
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    # Health check to ensure service is running properly
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    # For development, you can uncomment these lines to enable hot-reloading
+    # volumes:
+    #   - ./:/app
+    #   - /app/node_modules
+    # command: pnpm run dev
