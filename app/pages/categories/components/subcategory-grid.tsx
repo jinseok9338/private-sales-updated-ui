@@ -1,36 +1,26 @@
-import type { Category } from "~/@types/category/category";
-import FeedbackLink from "~/components/ui/Link";
-import ParagraphS from "~/components/ui/typo/paragraph_s";
-import { useCategoriesContext } from "~/context/categories/categoriesContext";
+import { useCategory } from "~/contexts/CategoryContext";
+import { _compact } from "~/lib/utils";
+import SubCategoryGridContainer from "./SubCategoryGrid/container";
 
 export function SubcategoryGrid() {
-  const { categories, selectedCategoryId } = useCategoriesContext();
-  const selectedCategoryData = categories.find(
-    (category: Category) => category.item.sno === Number(selectedCategoryId)
+  const { allSecondAndThirdCategory } = useCategory();
+  const flatCategory = allSecondAndThirdCategory.flatMap(
+    (category) => category
   );
-  const subcategories = selectedCategoryData?.item.subCategoryList ?? [];
+
   return (
-    <main className="flex-1 overflow-y-auto">
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-        {subcategories.map((subcategory) => (
-          <FeedbackLink
-            to={`/categories/${subcategory.item.sno}`}
-            key={subcategory.item.sno}
-            className="flex flex-col items-center"
-          >
-            <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gray-100">
-              <img
-                src={subcategory.item.image}
-                alt={subcategory.item.name}
-                className="object-cover"
-              />
-            </div>
-            <ParagraphS className="mt-2 text-sm text-center">
-              {subcategory.item.name}
-            </ParagraphS>
-          </FeedbackLink>
+    <main className="flex-1 h-full overflow-y-auto">
+      <div className="pb-[450px]">
+        {flatCategory.map((category) => (
+          <SubCategoryGridContainer
+            key={category?.categoryId ?? ""}
+            secondCategory={category}
+            thirdCategory={category.subCategoryList ?? []}
+          />
         ))}
       </div>
     </main>
   );
 }
+
+export default SubcategoryGrid;

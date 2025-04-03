@@ -55,7 +55,8 @@ export default function languageUpdate(config: II18nConfig) {
 
         config.support.forEach((lang) => {
           if (row[lang] !== undefined) {
-            set(localize[lang], key, row[lang]);
+            const processedValue = row[lang].replace(/\\n/g, "\n");
+            set(localize[lang], key, processedValue);
           }
         });
       } catch (error) {

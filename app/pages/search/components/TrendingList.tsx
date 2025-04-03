@@ -1,34 +1,29 @@
-import { ChevronUp } from "lucide-react";
-import FeedbackLink from "~/components/ui/Link";
-import ParagraphS from "~/components/ui/typo/paragraph_s";
-import { useSearchContext } from "~/context/search/searchContext";
+import { Link } from "react-router";
+import CloseIcon from "~/assets/icons/close-black.svg";
+import { TypoSubtle } from "~/components/ui/typo/AnchorsSubtle";
+import useRecentSearch from "~/stores/useRecentSearch";
 
-const TrendingList = () => {
-  const { searchTrendsData, selectedAge } = useSearchContext();
-  const filteredTrends = searchTrendsData.trends.filter((trend) =>
-    trend.ageGroups.includes(selectedAge)
-  );
+const RecentSearchList = () => {
+  const { recentSearch, removeRecentSearch } = useRecentSearch();
+
   return (
-    <div className="mt-6 bg-white rounded-lg">
-      {filteredTrends.map((item) => (
-        <FeedbackLink key={item.id} to={`/search/result?q=${item.term}`}>
-          <div
-            key={item.id}
-            className="flex items-center justify-between px-4 py-4 border-b last:border-b-0"
-          >
-            <div className="flex items-center gap-4">
-              <ParagraphS className="text-lg font-medium w-6">
-                {item.id}
-              </ParagraphS>
-              <ParagraphS>{item.term}</ParagraphS>
-            </div>
+    <>
+      {recentSearch.map((search) => (
+        <div
+          className="flex items-center justify-between px-4 py-3"
+          key={search.timestamp}
+        >
+          <Link to={`/search/result?q=${search.searchTerm}`}>
+            <TypoSubtle>{search.searchTerm}</TypoSubtle>
+          </Link>
 
-            <ChevronUp className="w-4 h-4 text-red-500" />
-          </div>
-        </FeedbackLink>
+          <button onClick={() => removeRecentSearch(search.searchTerm)}>
+            <img src={CloseIcon} alt="close" className="w-4 h-4" />
+          </button>
+        </div>
       ))}
-    </div>
+    </>
   );
 };
 
-export default TrendingList;
+export default RecentSearchList;

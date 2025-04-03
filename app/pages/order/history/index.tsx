@@ -2,7 +2,7 @@ import type { DeliveryInfo, OrderItem } from "~/@types/order/history";
 import { DeliveryInfoCard } from "./components/deliveryCard";
 import { OrderItemCard } from "./components/orderItemCard";
 import Padding from "~/components/ui/padding";
-import LabelM from "~/components/ui/typo/label_m";
+import TypoH3 from "~/components/ui/typo/AnchorsH3";
 
 // Example data - replace with your actual data fetching logic
 const deliveryInfo: DeliveryInfo = {
@@ -45,7 +45,7 @@ export default function OrderHistoryPage() {
   return (
     <div className="">
       <Padding height={10} />
-      <LabelM className="text-2xl font-bold mb-6">나의 구매내역</LabelM>
+      <TypoH3 className="text-2xl font-bold mb-6">나의 구매내역</TypoH3>
 
       <DeliveryInfoCard info={deliveryInfo} />
       <Padding height={10} />

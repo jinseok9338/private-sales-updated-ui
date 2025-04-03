@@ -1,23 +1,42 @@
+import { useQueryState } from "nuqs";
 import { useTranslation } from "react-i18next";
-import { Checkbox } from "~/components/ui/checkbox";
-import ParagraphS from "~/components/ui/typo/paragraph_s";
-import { useCartContext } from "~/context/cart/cartContext";
+import { TypoSubtleSemibold } from "~/components/ui/typo/AnchorsSubtle";
+import { ACTIVE_CART_TAB } from "~/constants/QueryStringKeys";
+import { useGetCart } from "../hooks/useCarts";
+import { useGetConfirmedItems } from "../hooks/useConfirmedItems";
+import { Tabs, TabsList, TabsTrigger } from "./cart-tab";
 
 const CartHeader = () => {
-  const { cartItems, selectedCount, handleSelectAll } = useCartContext();
   const { t } = useTranslation();
+  const { data: cartItems } = useGetCart();
+  const { data: confirmedCartItems } = useGetConfirmedItems();
+  const totalItemsCount = cartItems?.length || 0;
+  const confirmedItemsCount = confirmedCartItems?.length || 0;
+
+  const [activeCartTab, setActiveCartTab] = useQueryState(ACTIVE_CART_TAB.key, {
+    defaultValue: ACTIVE_CART_TAB.defaultValue,
+  });
+
   return (
-    <div className="flex justify-between items-center mb-6">
-      <div className="flex items-center gap-2">
-        <Checkbox
-          checked={selectedCount === cartItems.length}
-          onCheckedChange={(checked) => handleSelectAll(checked as boolean)}
-        />
-        <ParagraphS className="text-sm">
-          {t("cart.selectall")}({selectedCount}/{cartItems.length})
-        </ParagraphS>
-      </div>
-      <button className="text-sm text-gray-500">{t("cart.select")}</button>
+    <div className="space-y-4">
+      <Tabs value={activeCartTab} onValueChange={setActiveCartTab}>
+        <TabsList className="w-full flex items-center gap-[2px] px-4">
+          <TabsTrigger value="cart" className="flex-1">
+            <TypoSubtleSemibold>
+              {t("cart.tabs.cart", {
+                n: totalItemsCount,
+              })}
+            </TypoSubtleSemibold>
+          </TabsTrigger>
+          <TabsTrigger value="confirmed" className="flex-1">
+            <TypoSubtleSemibold>
+              {t("cart.tabs.confirmed", {
+                n: confirmedItemsCount,
+              })}
+            </TypoSubtleSemibold>
+          </TabsTrigger>
+        </TabsList>
+      </Tabs>
     </div>
   );
 };

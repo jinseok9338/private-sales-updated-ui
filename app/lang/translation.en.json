@@ -1,10 +1,42 @@
 {
+  "bottom": {
+    "terms": {
+      "anchors-email": "customer@anchors-biz.com",
+      "email": "Email: ",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
   "cart": {
+    "deleteItemError": "Error deleting the item.",
+    "deleteItemSuccess": "The item has been deleted.",
     "discount": "discount",
     "select": "unselect",
     "selectall": "select all",
     "button": {
       "order": "order"
+    },
+    "cart": {
+      "cart": "Cart",
+      "empty": "The cart is empty"
+    },
+    "confirmed": {
+      "empty": "The cart is empty"
+    },
+    "confirmModal": {
+      "cancel": "Cancel",
+      "confirm": "Confirm purchase",
+      "description": "If you confirm your purchase, you cannot cancel it and must purchase the product on the same day.",
+      "error": "Error confirming purchase",
+      "success": "Purchase confirmed",
+      "title": "Would you like to confirm your purchase?"
+    },
+    "deleteModal": {
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleteError": "Error clearing the cart.",
+      "description": "Would you like to delete the selected items?",
+      "title": "Would you like to delete the selected {{n}} items?"
     },
     "delivery": {
       "fee": "delivery fee",
@@ -14,12 +46,45 @@
     "empty": {
       "addProduct": "Add a new product",
       "noProduct": "The cart is empty",
-      "seeMore": "see more"
+      "seeMore": "Continue shopping"
+    },
+    "header": {
+      "cart": "Cart",
+      "clearCartError": "Error clearing the cart.",
+      "clearCartSuccess": "The cart has been cleared.",
+      "deleteSelected": "Delete selected",
+      "selectAll": "Select all",
+      "soldOutItemDelete": " Delete sold out",
+      "soldOutItemsDelete": "Would you like to delete the sold out items?",
+      "soldOutItemsNotice": "There are {{n}} sold out items."
+    },
+    "itemPriceInfo": {
+      "additionalDiscount": "Additional discount",
+      "paymentPrice": "Payment price",
+      "salePrice": "Sale price"
+    },
+    "purchaseButtonArea": {
+      "detail": "Detail",
+      "purchaseButton": "Purchase {{priceString}}",
+      "totalNumber": "Total {{n}} orders"
+    },
+    "purchaseDetailDrawer": {
+      "title": "Purchase amount",
+      "totalAmount": "Total payment amount"
+    },
+    "tabs": {
+      "cart": "Unconfirmed items ({{n}})",
+      "confirmed": "Confirmed items ({{n}})"
     },
     "total": {
       "estimatedPoints": "estimated points",
       "total": "total",
       "totalProductsPrice": "total {{0}} orders price"
+    }
+  },
+  "cartItemInfo": {
+    "image": {
+      "soldOut": "Sold out"
     }
   },
   "categories": {
@@ -34,8 +99,45 @@
       "title": "Recommended products"
     }
   },
+  "category": {
+    "filter": {
+      "go-see": "See more"
+    },
+    "header": {
+      "search": "search"
+    },
+    "select": {
+      "select-category": "Select a category"
+    },
+    "tab": {
+      "female": "WOMEN",
+      "fjtp": "FJTP",
+      "male": "MEN"
+    }
+  },
+  "checkout": {
+    "fail": {
+      "failLogoAreaOrderDescription": "The order failed. You can check the ordered products in your purchase history.",
+      "failLogoAreaTitle": "The order was not completed properly.",
+      "failReasonMessage": "Order failure reason",
+      "failReasonTitle": "Order failure reason",
+      "goToCart": "Go to cart",
+      "header": "Purchase failed"
+    },
+    "success": {
+      "checkoutHistory": "Check ordered products",
+      "continueShopping": "Continue shopping",
+      "header": "Purchase completed",
+      "successLogoAreaOrderDescription": "You can check the ordered products in your purchase history.",
+      "successLogoAreaTitle": "The following products have been ordered."
+    }
+  },
   "common": {
+    "cancel": "Cancel",
     "currency": "KRW {{n}}",
+    "delete": "Delete",
+    "error": "An error occurred",
+    "numberOf": "{{n}}",
     "button": {
       "cancel": "Cancel",
       "English": "English",
@@ -45,11 +147,16 @@
       "login": "Login",
       "logout": "Logout",
       "ok": "OK",
-      "passwordChange": "Change password"
+      "passwordChange": "Change password",
+      "send": "Send"
     },
     "label": {
       "email": "Email",
       "password": "Password"
+    },
+    "toast": {
+      "loginFailed": "Login failed",
+      "loginSuccess": "Login successful"
     }
   },
   "delivery": {
@@ -60,6 +167,10 @@
       "phoneNumber": "Phone number",
       "postalCode": "Postal code"
     }
+  },
+  "findPassword": {
+    "error": "Error sending password reset email.",
+    "success": "The password reset email has been sent."
   },
   "footer": {
     "path": {
@@ -72,9 +183,11 @@
   "form": {
     "description": {
       "confirmPassword": "Please enter the new password again.",
+      "email": "Please enter your email.",
       "findPassword": "Please enter the email address you used to reset your password. We will send you a new password through email.",
       "newPassword": "Password must include at least one letter, number, and special character.",
-      "oldPassword": "Please enter your current password."
+      "oldPassword": "Please enter your current password.",
+      "password": "Please enter your password."
     },
     "message": {
       "emailFormatIncorrect": "Email format is incorrect.",
@@ -96,6 +209,11 @@
       "confirmPassword": "Confirm password",
       "newPassword": "New password",
       "oldPassword": "Current password"
+    },
+    "validation": {
+      "email.invalid": "Email format is incorrect.",
+      "email.required": "Please enter your email.",
+      "password.required": "Please enter your password."
     }
   },
   "header": {
@@ -109,6 +227,54 @@
       "placeholder": "search"
     }
   },
+  "main-setting": {
+    "size": {
+      "placeholder": "Select option",
+      "title": "Size"
+    },
+    "toggle": {
+      "title": "Show items in stock"
+    }
+  },
+  "main": {
+    "header": {
+      "cs": "CS/Purchase/Refund information",
+      "seeDetail": "See details"
+    }
+  },
+  "me": {
+    "logoutError": "Error logging out",
+    "logoutSuccess": "Logout completed",
+    "addressInfo": {
+      "address": "Address",
+      "name": "Name",
+      "phoneNumber": "Phone number",
+      "title": "Address information",
+      "zoneCode": "Postal code"
+    },
+    "changePassword": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "confirmPassword-info": "Please enter the new password again.",
+      "confirmPassword-placeholder": "Please enter the new password again.",
+      "currentPassword-info": "Please enter your current password.",
+      "currentPassword-placeholder": "Please enter your current password.",
+      "error": "Error changing password",
+      "newPassword-info": "Please enter the new password. \n (8 characters or more, including letters, numbers, and special characters)",
+      "newPassword-placeholder": "Please enter the new password.",
+      "passwordMismatch": "Password does not match.",
+      "success": "Password changed"
+    },
+    "navigation": {
+      "changePassword": "Change password",
+      "findPassword": "Find password",
+      "orderHistory": "Order history"
+    }
+  },
+  "myPage": {
+    "header": "My page",
+    "logoutButton": "Logout"
+  },
   "order": {
     "item": {
       "discountAmount": "Discount amount",
@@ -120,9 +286,52 @@
       "size": "Size"
     }
   },
+  "product": {
+    "detailInfo": {
+      "title": "Product details"
+    },
+    "options": {
+      "option": "Option",
+      "quantity": "Quantity"
+    },
+    "purchaseButton": {
+      "addToCartSuccess": "The item has been added to the cart. ",
+      "goToCart": "Go to cart",
+      "putInCart": "Put in cart",
+      "remainingPurchaseCount": "Remaining card payment count",
+      "selectOption": "Select option"
+    },
+    "sellerInfo": {
+      "copy-success": "The code has been copied."
+    }
+  },
+  "productCard": {
+    "outOfStock": "Out of stock",
+    "remainingStock": "{{n}} left",
+    "soldOutImpending": "Sold out impending",
+    "sellerInfo": {
+      "priceInfo": "The displayed price is a general retail price, and the final discounted price can be checked in the cart."
+    }
+  },
+  "purchaseHistory": {
+    "header": "Purchase history"
+  },
   "search": {
     "header": {
       "title": "trending search words"
+    },
+    "result": {
+      "noResult": "No search results for “{{q}}”",
+      "searchDifferent": "Please enter the product code or product name correctly."
+    },
+    "title": {
+      "clear": "Delete all",
+      "title": "Recent search"
+    }
+  },
+  "size-guide": {
+    "header": {
+      "title": "Size guide"
     }
   }
 }

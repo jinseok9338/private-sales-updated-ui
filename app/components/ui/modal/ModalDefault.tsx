@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { Button } from "../button";
 import { cn } from "~/lib/utils";
 import Modal from "./Modal";
-import StringToHtml from "../StringToHtml";
+import StringToHtml from "~/components/ui/StringToHtml";
 import useModal from "~/stores/modalStores";
 
 type ContainerProps = {
@@ -108,7 +108,7 @@ const ModalDefault = ({
             !hideBottomCancelButton ? (
               <Button
                 variant={"secondary"}
-                size={"lg"}
+                size="default"
                 className="min-w-0 border-[1.5px] border-neutral-900"
                 onClick={() => {
                   handleCancel();
@@ -121,7 +121,7 @@ const ModalDefault = ({
           {txtCancel && !handleCancel && (
             <Button
               variant={"secondary"}
-              size={"lg"}
+              size="default"
               className="min-w-0 border-[1.5px] border-neutral-900"
               onClick={closeModal}
             >
@@ -130,7 +130,7 @@ const ModalDefault = ({
           )}
           <Button
             variant={"default"}
-            size={"lg"}
+            size="default"
             onClick={handleOk ? handleOk : closeModal}
             className={hideBottomCancelButton ? "w-40" : "min-w-0"}
           >

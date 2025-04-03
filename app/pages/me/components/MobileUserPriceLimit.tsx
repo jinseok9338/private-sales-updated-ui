@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import ParagraphS from "~/components/ui/typo/paragraph_s";
+import { TypoBody14 } from "~/components/ui/typo/AnchorsBody14";
 
 const MobileUserPriceLimit = ({
   availablePrice,
@@ -14,32 +14,32 @@ const MobileUserPriceLimit = ({
 
   return (
     <div className="flex flex-col gap-2 bg-[#FAFAFA] p-5">
-      <ParagraphS className="text-[14px] font-[600] leading-5">
+      <TypoBody14 className="text-[14px] font-[600] leading-5">
         {t("header.limit.limit")}
-      </ParagraphS>
+      </TypoBody14>
       <div className="flex items-center gap-2">
-        <ParagraphS className="text-[10px] font-[400] leading-[14px] text-[#727272]">
+        <TypoBody14 className="text-[10px] font-[400] leading-[14px] text-[#727272]">
           {t("header.limit.total")}
-        </ParagraphS>
-        <ParagraphS className="text-center text-[14px] font-[600] leading-5">
+        </TypoBody14>
+        <TypoBody14 className="text-center text-[14px] font-[600] leading-5">
           {availablePrice.toLocaleString()}
-        </ParagraphS>
+        </TypoBody14>
       </div>
       <div className="flex items-center gap-2">
-        <ParagraphS className="text-[10px] font-[400] leading-[14px] text-[#727272]">
+        <TypoBody14 className="text-[10px] font-[400] leading-[14px] text-[#727272]">
           {t("header.limit.used")}
-        </ParagraphS>
-        <ParagraphS className="text-center text-[14px] font-[600] leading-5 text-[#E83A2E]">
+        </TypoBody14>
+        <TypoBody14 className="text-center text-[14px] font-[600] leading-5 text-[#E83A2E]">
           {usedPrice.toLocaleString()}
-        </ParagraphS>
+        </TypoBody14>
       </div>
       <div className="flex items-center gap-2">
-        <ParagraphS className="text-[10px] font-[400] leading-[14px] text-[#727272]">
+        <TypoBody14 className="text-[10px] font-[400] leading-[14px] text-[#727272]">
           {t("header.limit.remaining")}
-        </ParagraphS>
-        <ParagraphS className="text-center text-[14px] font-[600] leading-5">
+        </TypoBody14>
+        <TypoBody14 className="text-center text-[14px] font-[600] leading-5">
           {remainingPrice.toLocaleString()}
-        </ParagraphS>
+        </TypoBody14>
       </div>
     </div>
   );

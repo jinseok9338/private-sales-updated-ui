@@ -1,10 +1,42 @@
 {
+  "bottom": {
+    "terms": {
+      "anchors-email": "customer@anchors-biz.com ",
+      "email": "이메일: ",
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관"
+    }
+  },
   "cart": {
+    "deleteItemError": "상품을 삭제하는 중 오류가 발생했어요",
+    "deleteItemSuccess": "상품이 삭제되었어요",
     "discount": "상품할인",
     "select": "선택삭제",
     "selectall": "전체 선택",
     "button": {
       "order": "주문하기"
+    },
+    "cart": {
+      "cart": "장바구니",
+      "empty": "장바구니에 담은 상품이 없습니다."
+    },
+    "confirmed": {
+      "empty": "구매 확정한 상품이 없습니다."
+    },
+    "confirmModal": {
+      "cancel": "취소",
+      "confirm": "구매 확정",
+      "description": "구매 확정 시, 취소할 수 없으며 금일 중으로 상품을 반드시 구매해야 합니다.",
+      "error": "구매확정 중 오류가 발생했어요",
+      "success": "구매확정 완료",
+      "title": "구매확정 하시겠습니까?"
+    },
+    "deleteModal": {
+      "cancel": "취소",
+      "delete": "삭제",
+      "deleteError": "장바구니를 비우는 중 오류가 발생했어요",
+      "description": "선택한 상품을 삭제하시겠어요?",
+      "title": "선택한 {{n}}개의 상품을 삭제하시겠습니까?"
     },
     "delivery": {
       "fee": "배송비",
@@ -14,12 +46,45 @@
     "empty": {
       "addProduct": "새로운 상품으로 채워주세요",
       "noProduct": "장바구니가 비어있어요",
-      "seeMore": "상품 보러가기"
+      "seeMore": "쇼핑 계속하기"
+    },
+    "header": {
+      "cart": "장바구니",
+      "clearCartError": "장바구니를 비우는 중 오류가 발생했어요",
+      "clearCartSuccess": "장바구니를 비웠어요",
+      "deleteSelected": "선택 삭제",
+      "selectAll": "전체 선택",
+      "soldOutItemDelete": "품절 삭제",
+      "soldOutItemsDelete": "품절 상품을 삭제하시겠어요?",
+      "soldOutItemsNotice": "품절 상품이 {{n}}개 있어요"
+    },
+    "itemPriceInfo": {
+      "additionalDiscount": "추가할인",
+      "paymentPrice": "결제가",
+      "salePrice": "판매가"
+    },
+    "purchaseButtonArea": {
+      "detail": "자세히 보기",
+      "purchaseButton": "{{priceString}} 결제하기",
+      "totalNumber": "총 {{n}}개"
+    },
+    "purchaseDetailDrawer": {
+      "title": "구매금액",
+      "totalAmount": "총 결제금액"
+    },
+    "tabs": {
+      "cart": "미확정 상품 ({{n}})",
+      "confirmed": "확정 상품 ({{n}})"
     },
     "total": {
       "estimatedPoints": "예상 적립포인트",
       "total": "총 상품금액",
       "totalProductsPrice": "총 {{n}} 개 주문금액"
+    }
+  },
+  "cartItemInfo": {
+    "image": {
+      "soldOut": "품절"
     }
   },
   "categories": {
@@ -34,8 +99,45 @@
       "title": "회원님을 위한 추천 상품"
     }
   },
+  "category": {
+    "filter": {
+      "go-see": "보러가기"
+    },
+    "header": {
+      "search": "검색"
+    },
+    "select": {
+      "select-category": "카테고리를 선택해주세요"
+    },
+    "tab": {
+      "female": "여성",
+      "fjtp": "FJTP",
+      "male": "남성"
+    }
+  },
+  "checkout": {
+    "fail": {
+      "failLogoAreaOrderDescription": "이용에 불편을 드려 죄송합니다. \n 다시 한 번 주문/결제를 시도해주시기 바랍니다.",
+      "failLogoAreaTitle": "주문이 정상적으로 \n 완료되지 않았습니다.",
+      "failReasonMessage": "주문 실패 이유",
+      "failReasonTitle": "결제 실패 이유",
+      "goToCart": "장바구니 돌아가기",
+      "header": "주문 실패"
+    },
+    "success": {
+      "checkoutHistory": "구매내역 바로가기",
+      "continueShopping": "쇼핑 계속하기",
+      "header": "주문 완료",
+      "successLogoAreaOrderDescription": "구매내역에서 주문 상품을 확인하실 수 있습니다.",
+      "successLogoAreaTitle": "아래 상품에 대한 주문이 \n 완료되었습니다."
+    }
+  },
   "common": {
+    "cancel": "취소",
     "currency": "{{n}}원",
+    "delete": "삭제",
+    "error": "오류가 발생했어요",
+    "numberOf": "{{n}}개",
     "button": {
       "cancel": "취소",
       "English": "English",
@@ -45,11 +147,16 @@
       "login": "로그인",
       "logout": "로그아웃",
       "ok": "확인",
-      "passwordChange": "비밀번호 변경"
+      "passwordChange": "비밀번호 변경",
+      "send": "전송"
     },
     "label": {
       "email": "이메일",
       "password": "비밀번호"
+    },
+    "toast": {
+      "loginFailed": "로그인 실패",
+      "loginSuccess": "로그인 성공"
     }
   },
   "delivery": {
@@ -60,6 +167,10 @@
       "phoneNumber": "연락처",
       "postalCode": "우편번호"
     }
+  },
+  "findPassword": {
+    "error": "비밀번호 초기화 이메일 전송 중 오류가 발생했어요",
+    "success": "비밀번호 초기화 이메일이 전송되었어요"
   },
   "footer": {
     "path": {
@@ -72,9 +183,11 @@
   "form": {
     "description": {
       "confirmPassword": "변경하실 비밀번호를 한번 더 입력해주세요.",
+      "email": "이메일을 입력해주세요.",
       "findPassword": "비밀번호 초기화를 위해 이용중인 이메일을 입력해주세요. 이용하고 계신 이메일을 통해 새로운 비밀번호를 전송합니다.",
       "newPassword": "비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.",
-      "oldPassword": "현제 비밀번호를 입력해주세요."
+      "oldPassword": "현제 비밀번호를 입력해주세요.",
+      "password": "비밀번호를 입력해주세요."
     },
     "message": {
       "emailFormatIncorrect": "이메일 포맷이 아닙니다.",
@@ -96,6 +209,11 @@
       "confirmPassword": "비밀번호 확인",
       "newPassword": "새로운 비밀번호",
       "oldPassword": "현재 사용중인 비밀번호"
+    },
+    "validation": {
+      "email.invalid": "이메일 포맷이 아닙니다.",
+      "email.required": "이메일을 입력해주세요.",
+      "password.required": "비밀번호를 입력해주세요."
     }
   },
   "header": {
@@ -109,6 +227,54 @@
       "placeholder": "검색"
     }
   },
+  "main-setting": {
+    "size": {
+      "placeholder": "옵션 선택",
+      "title": "사이즈"
+    },
+    "toggle": {
+      "title": "품절제외"
+    }
+  },
+  "main": {
+    "header": {
+      "cs": "CS/구매/환불 안내",
+      "seeDetail": "자세히 보기"
+    }
+  },
+  "me": {
+    "logoutError": "로그아웃 중 오류가 발생했어요",
+    "logoutSuccess": "로그아웃 완료",
+    "addressInfo": {
+      "address": "주소",
+      "name": "이름",
+      "phoneNumber": "연락처",
+      "title": "배송지 정보",
+      "zoneCode": "우편번호"
+    },
+    "changePassword": {
+      "cancel": "취소",
+      "confirm": "확인",
+      "confirmPassword-info": "변경하실 비밀번호를 한 번 더 입력해주세요.",
+      "confirmPassword-placeholder": "비밀번호를 입력해주세요.",
+      "currentPassword-info": "현재 사용중인 비밀번호를 입력해주세요.",
+      "currentPassword-placeholder": "비밀번호를 입력해주세요.",
+      "error": "비밀번호 변경 중 오류가 발생했어요",
+      "newPassword-info": "새 비밀번호를 입력해주세요. \n (8자 이상, 영문 대소문자·숫자·특수문자 포함)",
+      "newPassword-placeholder": "비밀번호를 입력해주세요.",
+      "passwordMismatch": "비밀번호가 일치하지 않습니다.",
+      "success": "비밀번호가 변경되었어요"
+    },
+    "navigation": {
+      "changePassword": "비밀번호 변경",
+      "findPassword": "비밀번호 찾기",
+      "orderHistory": "주문내역"
+    }
+  },
+  "myPage": {
+    "header": "마이 페이지",
+    "logoutButton": "로그아웃"
+  },
   "order": {
     "item": {
       "discountAmount": "할인금액",
@@ -120,9 +286,52 @@
       "size": "사이즈"
     }
   },
+  "product": {
+    "detailInfo": {
+      "title": "제품 설명"
+    },
+    "options": {
+      "option": "옵션",
+      "quantity": "수량"
+    },
+    "purchaseButton": {
+      "addToCartSuccess": "장바구니에 추가되었습니다.",
+      "goToCart": "바로가기",
+      "putInCart": "장바구니 담기",
+      "remainingPurchaseCount": "남은 카드 결제 횟수",
+      "selectOption": "옵션 선택"
+    },
+    "sellerInfo": {
+      "copy-success": "코드가 복사되었습니다."
+    }
+  },
+  "productCard": {
+    "outOfStock": "품절",
+    "remainingStock": "{{n}}개 남음",
+    "soldOutImpending": "품절임박",
+    "sellerInfo": {
+      "priceInfo": "표시된 금액은 일반 리테일가이며,최종 할인 금액은 장바구니에서 확인하실 수 있습니다."
+    }
+  },
+  "purchaseHistory": {
+    "header": "주문 내역"
+  },
   "search": {
     "header": {
       "title": "인기 검색어"
+    },
+    "result": {
+      "noResult": "“{{q}}”와 일치하는 검색결과가 없습니다.",
+      "searchDifferent": "상품코드 또는 상품명을 정확하게 입력해주세요."
+    },
+    "title": {
+      "clear": "전체 삭제",
+      "title": "최근 검색어"
+    }
+  },
+  "size-guide": {
+    "header": {
+      "title": "사이즈 가이드"
     }
   }
 }

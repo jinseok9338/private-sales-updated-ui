@@ -1,3 +1,0 @@
-interface IClassName {
-  className?: string;
-}

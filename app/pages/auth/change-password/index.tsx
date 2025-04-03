@@ -15,8 +15,10 @@ import {
   FormMessage,
 } from "~/components/ui/form";
 import Padding from "~/components/ui/padding";
-import PasswordInput from "~/components/ui/passwordInput";
-import HeadingS from "~/components/ui/typo/heading_s";
+import { PasswordInput } from "~/components/ui/password-input";
+
+import TypoH3 from "~/components/ui/typo/AnchorsH3";
+
 import { passwordPattern } from "~/constants/regex";
 
 const PasswordChangePage = () => {
@@ -62,7 +64,7 @@ const PasswordChangePage = () => {
   return (
     <Form {...form}>
       <Padding height={20} />
-      <HeadingS className="text-2xl font-bold mb-6">비밀번호 변경</HeadingS>
+      <TypoH3 className="text-2xl font-bold mb-6">비밀번호 변경</TypoH3>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
         className="flex flex-col gap-6 justify-center p-4"
@@ -130,7 +132,7 @@ const PasswordChangePage = () => {
         <div className="grid grid-cols-2 gap-4 pt-4">
           <Button
             type="button"
-            variant="outline"
+            variant="secondary"
             onClick={() => console.log("Cancel")}
           >
             {t("common.button.cancel")}

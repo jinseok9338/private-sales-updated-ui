@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 import { cn } from "~/lib/utils";
 import useModal from "~/stores/modalStores";
 
-interface IModalBackdropProps extends IClassName {
+interface IModalBackdropProps {
   children: React.ReactNode;
   zIndex: number;
+  className?: string;
 }
 
 const ModalBackdrop = ({

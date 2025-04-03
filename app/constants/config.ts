@@ -4,3 +4,5 @@ export const APP_MODE = {
   TEST: "test",
   UAT: "uat",
 } as const;
+
+export const NOT_AUTH_PATH = ["/login", "/find-password"];

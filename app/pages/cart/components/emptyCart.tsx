@@ -1,25 +1,15 @@
-import { Button } from "~/components/ui/button";
-import { ShoppingCart } from "lucide-react";
-import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
-import ParagraphS from "~/components/ui/typo/paragraph_s";
-import HeadingS from "~/components/ui/typo/heading_s";
+import { Link } from "react-router";
+import { Button } from "~/components/ui/button";
+import { TypoSubtleSemibold } from "~/components/ui/typo/AnchorsSubtle";
 
-export function EmptyCart() {
+export function EmptyCart({ content }: { content: string }) {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] px-4">
-      <div className="w-24 h-24 mb-6">
-        <ShoppingCart className="w-24 h-24 text-gray-400 opacity-20" />
-      </div>
-      <HeadingS className="text-xl font-medium mb-2">
-        {t("cart.empty.noProduct")}
-      </HeadingS>
-      <ParagraphS className="text-gray-500 mb-8">
-        {t("cart.empty.addProduct")}
-      </ParagraphS>
-      <Link to="/">
-        <Button className="w-full max-w-md bg-rose-400 hover:bg-rose-500">
+      <TypoSubtleSemibold>{content}</TypoSubtleSemibold>
+      <Link to="/" className="w-full px-4 py-3 fixed bottom-0 left-0 right-0">
+        <Button className="w-full" variant="default">
           {t("cart.empty.seeMore")}
         </Button>
       </Link>

@@ -1,22 +1,83 @@
 category,key,ko,en
+bottom/terms,anchors-email,customer@anchors-biz.com ,customer@anchors-biz.com
+bottom/terms,email,이메일: ,Email: 
+bottom/terms,privacy,개인정보처리방침,Privacy Policy
+bottom/terms,terms,이용약관,Terms of Service
+cart,deleteItemError,상품을 삭제하는 중 오류가 발생했어요,Error deleting the item.
+cart,deleteItemSuccess,상품이 삭제되었어요,The item has been deleted.
 cart,discount,상품할인,discount
 cart,select,선택삭제,unselect
 cart,selectall,전체 선택,select all
 cart/button,order,주문하기,order
+cart/cart,cart,장바구니,Cart
+cart/cart,empty,장바구니에 담은 상품이 없습니다.,The cart is empty
+cart/confirmed,empty,구매 확정한 상품이 없습니다.,The cart is empty
+cart/confirmModal,cancel,취소,Cancel
+cart/confirmModal,confirm,구매 확정,Confirm purchase
+cart/confirmModal,description,"구매 확정 시, 취소할 수 없으며 금일 중으로 상품을 반드시 구매해야 합니다.","If you confirm your purchase, you cannot cancel it and must purchase the product on the same day."
+cart/confirmModal,error,구매확정 중 오류가 발생했어요,Error confirming purchase
+cart/confirmModal,success,구매확정 완료,Purchase confirmed
+cart/confirmModal,title,구매확정 하시겠습니까?,Would you like to confirm your purchase?
+cart/deleteModal,cancel,취소,Cancel
+cart/deleteModal,delete,삭제,Delete
+cart/deleteModal,deleteError,장바구니를 비우는 중 오류가 발생했어요,Error clearing the cart.
+cart/deleteModal,description,선택한 상품을 삭제하시겠어요?,Would you like to delete the selected items?
+cart/deleteModal,title,선택한 {{n}}개의 상품을 삭제하시겠습니까?,Would you like to delete the selected {{n}} items?
 cart/delivery,fee,배송비,delivery fee
 cart/delivery,noFee,무료배송,free delivery
 cart/delivery,product,배송상품,delivery products
 cart/empty,addProduct,새로운 상품으로 채워주세요,Add a new product
 cart/empty,noProduct,장바구니가 비어있어요,The cart is empty
 cart/empty,seeMore,상품 보러가기,see more
+cart/empty,seeMore,쇼핑 계속하기,Continue shopping
+cart/header,cart,장바구니,Cart
+cart/header,clearCartError,장바구니를 비우는 중 오류가 발생했어요,Error clearing the cart.
+cart/header,clearCartSuccess,장바구니를 비웠어요,The cart has been cleared.
+cart/header,deleteSelected,선택 삭제,Delete selected
+cart/header,selectAll,전체 선택,Select all
+cart/header,soldOutItemDelete,품절 삭제, Delete sold out
+cart/header,soldOutItemsDelete,품절 상품을 삭제하시겠어요?,Would you like to delete the sold out items?
+cart/header,soldOutItemsNotice,품절 상품이 {{n}}개 있어요,There are {{n}} sold out items.
+cart/itemPriceInfo,additionalDiscount,추가할인,Additional discount
+cart/itemPriceInfo,paymentPrice,결제가,Payment price
+cart/itemPriceInfo,salePrice,판매가,Sale price
+cart/purchaseButtonArea,detail,자세히 보기,Detail
+cart/purchaseButtonArea,purchaseButton,{{priceString}} 결제하기,Purchase {{priceString}}
+cart/purchaseButtonArea,totalNumber,총 {{n}}개,Total {{n}} orders
+cart/purchaseDetailDrawer,title,구매금액,Purchase amount
+cart/purchaseDetailDrawer,totalAmount,총 결제금액,Total payment amount
+cart/tabs,cart,미확정 상품 ({{n}}),Unconfirmed items ({{n}})
+cart/tabs,confirmed,확정 상품 ({{n}}),Confirmed items ({{n}})
 cart/total,estimatedPoints,예상 적립포인트,estimated points
 cart/total,total,총 상품금액,total
 cart/total,totalProductsPrice,총 {{n}} 개 주문금액,total {{0}} orders price
+cartItemInfo/image,soldOut,품절,Sold out
 categories/error,not-found,상품을 불러오는 중 오류가 발생했습니다., Error loading products
 categories/header,purchasing,{{n}}개 구매중,buying {{0}} items
 categories/header,seeAll,전체보기,see all
 categories/recommend,title,회원님을 위한 추천 상품,Recommended products
+category/filter,go-see,보러가기,See more
+category/header,search,검색,search
+category/select,select-category,카테고리를 선택해주세요,Select a category
+category/tab,female,여성,WOMEN
+category/tab,fjtp,FJTP,FJTP
+category/tab,male,남성,MEN
+checkout/fail,failLogoAreaOrderDescription,이용에 불편을 드려 죄송합니다. \n 다시 한 번 주문/결제를 시도해주시기 바랍니다.,The order failed. You can check the ordered products in your purchase history.
+checkout/fail,failLogoAreaTitle,주문이 정상적으로 \n 완료되지 않았습니다.,The order was not completed properly.
+checkout/fail,failReasonMessage,주문 실패 이유,Order failure reason
+checkout/fail,failReasonTitle,결제 실패 이유,Order failure reason
+checkout/fail,goToCart,장바구니 돌아가기,Go to cart
+checkout/fail,header,주문 실패,Purchase failed
+checkout/success,checkoutHistory,구매내역 바로가기,Check ordered products
+checkout/success,continueShopping,쇼핑 계속하기,Continue shopping
+checkout/success,header,주문 완료,Purchase completed
+checkout/success,successLogoAreaOrderDescription,구매내역에서 주문 상품을 확인하실 수 있습니다.,You can check the ordered products in your purchase history.
+checkout/success,successLogoAreaTitle,아래 상품에 대한 주문이 \n 완료되었습니다.,The following products have been ordered.
+common,cancel,취소,Cancel
 common,currency,{{n}}원,KRW {{n}}
+common,delete,삭제,Delete
+common,error,오류가 발생했어요,An error occurred
+common,numberOf,{{n}}개,{{n}}
 common/button,cancel,취소,Cancel
 common/button,English,English,English
 common/button,findPassword,비밀번호 찾기,Find Password
@@ -26,21 +87,28 @@ common/button,login,로그인,Login
 common/button,logout,로그아웃,Logout
 common/button,ok,확인,OK
 common/button,passwordChange,비밀번호 변경,Change password
+common/button,send,전송,Send
 common/label,email,이메일,Email
 common/label,password,비밀번호,Password
+common/toast,loginFailed,로그인 실패,Login failed
+common/toast,loginSuccess,로그인 성공,Login successful
 delivery/info,address,주소,Address
 delivery/info,deliveryPlaceInfo,배송지 정보,Delivery place information
 delivery/info,name,이름,Name
 delivery/info,phoneNumber,연락처,Phone number
 delivery/info,postalCode,우편번호,Postal code
+findPassword,error,비밀번호 초기화 이메일 전송 중 오류가 발생했어요,Error sending password reset email.
+findPassword,success,비밀번호 초기화 이메일이 전송되었어요,The password reset email has been sent.
 footer/path,categories,카테고리,category
 footer/path,home,홈,home
 footer/path,me,마이페이지,me
 footer/path,search,검색,search
 form/description,confirmPassword,변경하실 비밀번호를 한번 더 입력해주세요.,Please enter the new password again.
+form/description,email,이메일을 입력해주세요.,Please enter your email.
 form/description,findPassword,비밀번호 초기화를 위해 이용중인 이메일을 입력해주세요. 이용하고 계신 이메일을 통해 새로운 비밀번호를 전송합니다.,Please enter the email address you used to reset your password. We will send you a new password through email.
 form/description,newPassword,"비밀번호는 알파벳, 숫자, 특수문자를 포함해야 합니다.","Password must include at least one letter, number, and special character."
 form/description,oldPassword,현제 비밀번호를 입력해주세요.,Please enter your current password.
+form/description,password,비밀번호를 입력해주세요.,Please enter your password.
 form/message,emailFormatIncorrect,이메일 또는 비밀번호가 일치하지 않습니다.,Email or password doesn't match.
 form/message,emailFormatIncorrect,이메일 포맷이 아닙니다.,Email format is incorrect.
 form/message,enterEmail,이메일 입력,Please enter your email.
@@ -57,11 +125,43 @@ form/placeholder,password,비밀번호 입력,Enter password
 form/title,confirmPassword,비밀번호 확인,Confirm password
 form/title,newPassword,새로운 비밀번호,New password
 form/title,oldPassword,현재 사용중인 비밀번호,Current password
+form/validation,email.invalid,이메일 포맷이 아닙니다.,Email format is incorrect.
+form/validation,email.required,이메일을 입력해주세요.,Please enter your email.
+form/validation,password.required,비밀번호를 입력해주세요.,Please enter your password.
 header/limit,limit,제한 사항,Limit
 header/limit,remaining,남은 가격,Remaining price
 header/limit,total,총 가격,Total price
 header/limit,used,사용 가격,Used price 
 header/search,placeholder,검색,search
+main-setting/size,placeholder,옵션 선택,Select option
+main-setting/size,title,사이즈,Size
+main-setting/toggle,title,품절제외,Show items in stock
+main/header,cs,CS/구매/환불 안내,CS/Purchase/Refund information
+main/header,seeDetail,자세히 보기,See details
+me,logoutError,로그아웃 중 오류가 발생했어요,Error logging out
+me,logoutSuccess,로그아웃 완료,Logout completed
+me/addressInfo,address,주소,Address
+me/addressInfo,name,이름,Name
+me/addressInfo,phoneNumber,연락처,Phone number
+me/addressInfo,title,배송지 정보,Address information
+me/addressInfo,zoneCode,우편번호,Postal code
+me/changePassword,cancel,취소,Cancel
+me/changePassword,confirm,확인,Confirm
+me/changePassword,confirmPassword-info,변경하실 비밀번호를 한 번 더 입력해주세요.,Please enter the new password again.
+me/changePassword,confirmPassword-placeholder,비밀번호를 입력해주세요.,Please enter the new password again.
+me/changePassword,currentPassword-info,현재 사용중인 비밀번호를 입력해주세요.,Please enter your current password.
+me/changePassword,currentPassword-placeholder,비밀번호를 입력해주세요.,Please enter your current password.
+me/changePassword,error,비밀번호 변경 중 오류가 발생했어요,Error changing password
+me/changePassword,newPassword-info,"새 비밀번호를 입력해주세요. \n (8자 이상, 영문 대소문자·숫자·특수문자 포함)","Please enter the new password. \n (8 characters or more, including letters, numbers, and special characters)"
+me/changePassword,newPassword-placeholder,비밀번호를 입력해주세요.,Please enter the new password.
+me/changePassword,passwordMismatch,비밀번호가 일치하지 않습니다.,Password does not match.
+me/changePassword,success,비밀번호가 변경되었어요,Password changed
+me/navigation,changePassword,비밀번호 변경,Change password
+me/navigation,changePassword,비밀번호 변경,Change password
+me/navigation,findPassword,비밀번호 찾기,Find password
+me/navigation,orderHistory,주문내역,Order history
+myPage,header,마이 페이지,My page
+myPage,logoutButton,로그아웃,Logout
 order/item,discountAmount,할인금액,Discount amount
 order/item,finalPrice,최종 구매가,Final price
 order/item,orderPlaceDate,주문일자[주문번호],Order date [order number]
@@ -69,4 +169,23 @@ order/item,originalPrice,구매가,Original price
 order/item,productCode,상품코드,Product code
 order/item,quantity,수량,Quantity
 order/item,size,사이즈,Size
+product/detailInfo,title,제품 설명,Product details
+product/options,option,옵션,Option
+product/options,quantity,수량,Quantity
+product/purchaseButton,addToCartSuccess,장바구니에 추가되었습니다.,The item has been added to the cart. 
+product/purchaseButton,goToCart,바로가기,Go to cart
+product/purchaseButton,putInCart,장바구니 담기,Put in cart
+product/purchaseButton,remainingPurchaseCount,남은 카드 결제 횟수,Remaining card payment count
+product/purchaseButton,selectOption,옵션 선택,Select option
+product/sellerInfo,copy-success,코드가 복사되었습니다.,The code has been copied.
+productCard,outOfStock,품절,Out of stock
+productCard,remainingStock,{{n}}개 남음,{{n}} left
+productCard,soldOutImpending,품절임박,Sold out impending
+productCard/sellerInfo,priceInfo,"표시된 금액은 일반 리테일가이며,최종 할인 금액은 장바구니에서 확인하실 수 있습니다.","The displayed price is a general retail price, and the final discounted price can be checked in the cart."
+purchaseHistory,header,주문 내역,Purchase history
 search/header,title,인기 검색어,trending search words
+search/result,noResult,“{{q}}”와 일치하는 검색결과가 없습니다.,No search results for “{{q}}”
+search/result,searchDifferent,상품코드 또는 상품명을 정확하게 입력해주세요.,Please enter the product code or product name correctly.
+search/title,clear,전체 삭제,Delete all
+search/title,title,최근 검색어,Recent search
+size-guide/header,title,사이즈 가이드,Size guide

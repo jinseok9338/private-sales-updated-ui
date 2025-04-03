@@ -1,14 +1,4 @@
-import {
-  isRouteErrorResponse,
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "react-router";
-import "./lang/i18n";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import {
   AlertCircle,
   ChevronDown,
@@ -16,12 +6,26 @@ import {
   RefreshCcw,
   XCircle,
 } from "lucide-react";
+import { NuqsAdapter } from "nuqs/adapters/react-router/v7";
+import {
+  isRouteErrorResponse,
+  Links,
+  Meta,
+  Navigate,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+  useLocation,
+} from "react-router";
 import type { Route } from "./+types/root";
 import { queryClient } from "./api/react-query";
 import stylesheet from "./app.css?url";
 import Loading from "./components/loadingScreen/loadingScreen";
 import ModalManager from "./components/ui/modal/ModalManager";
-import { Toaster } from "./components/ui/toaster";
+import { Toaster } from "./components/ui/sonner";
+import { NOT_AUTH_PATH } from "./constants/config";
+import "./lang/i18n";
+import useUser from "./stores/useUser";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -47,7 +51,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+        />
         <Meta />
         <Links />
       </head>
@@ -61,12 +68,24 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  const { user } = useUser();
+  const pathname = useLocation().pathname;
+
+  if (!user && !NOT_AUTH_PATH.includes(pathname)) {
+    return <Navigate to="/login" />;
+  }
+
+  if (user && NOT_AUTH_PATH.includes(pathname)) {
+    return <Navigate to="/" />;
+  }
+
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <NuqsAdapter>
+        <Outlet />
+      </NuqsAdapter>
       <Toaster />
-      <ModalManager />
-      <ReactQueryDevtools initialIsOpen={false} />
+      {/* <ReactQueryDevtools initialIsOpen={false} /> */}
     </QueryClientProvider>
   );
 }
@@ -231,7 +250,6 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
           }}
         >
           <p>If this problem persists, please contact our support team.</p>
-          <p>Error ID: {crypto.randomUUID().split("-")[0]}</p>
         </div>
       </div>
     </main>

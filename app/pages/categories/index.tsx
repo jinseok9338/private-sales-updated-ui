@@ -3,7 +3,7 @@ import { SubcategoryGrid } from "~/pages/categories/components/subcategory-grid"
 
 const CategoryIndex = () => {
   return (
-    <div className="flex h-[calc(100vh-60px)]">
+    <div className="flex h-[calc(100vh-108px)]">
       <CategorySidebar />
       <SubcategoryGrid />
     </div>

@@ -1,22 +1,35 @@
-import { useCategoriesContext } from "~/context/categories/categoriesContext";
+import { useCategory } from "~/contexts/CategoryContext";
+import { cn } from "~/lib/utils";
 
 export function CategorySidebar() {
-  const { categories, selectedCategoryId, handleSelectCategory } =
-    useCategoriesContext();
+  const { allFirstCategory, activeCategory, setActiveCategory } = useCategory();
+
+  const handleClick = (categoryId: number) => {
+    setActiveCategory(categoryId);
+    const targetElement = document.getElementById(`category-${categoryId}`);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
-    <aside className="w-[126px] flex-shrink-0 border-r h-full overflow-y-auto">
-      <nav className="py-4">
-        {categories.map((category) => (
+    <aside className="flex-shrink-0 bg-common-alternate h-full overflow-y-auto">
+      <nav>
+        {allFirstCategory.map((category) => (
           <button
-            key={category.item.sno}
-            onClick={() => handleSelectCategory(category.item.sno)}
-            className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${
-              Number(selectedCategoryId) === category.item.sno
-                ? "bg-gray-100 font-medium"
-                : ""
-            }`}
+            key={category.categoryId}
+            onClick={() => handleClick(category.categoryId)}
+            className={cn(
+              "w-full flex justify-between text-left py-2 pl-4 pr-[27px] items-center",
+              activeCategory === category.categoryId
+                ? "bg-common-white text-body13"
+                : "text-body13 text-gray-500"
+            )}
           >
-            {category.item.name}
+            {category.name}
           </button>
         ))}
       </nav>
